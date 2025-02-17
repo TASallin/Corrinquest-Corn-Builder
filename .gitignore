@@ -169,3 +169,7 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Input/Output folders
+Input Corn/
+Output Corn/

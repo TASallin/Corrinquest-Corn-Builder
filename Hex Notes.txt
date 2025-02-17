@@ -1,0 +1,17 @@
+Item Hex Entry: 4 bytes
+Halfword 1 Item ID
+Byte 3 0x00
+Byte 4 uses, add 0x40 if equipped
+
+Ex: Equipped steel Yumi (177)
+0xB600 00 40
+
+Ex2: Vulnerary 3 uses (277, hex 115)
+0x1501 00 03
+
+Skill Hex Entry: Boolean bitmask but first bit is controlled by skill 0 which is always on for some reason (add 1)
+HP+5 = 3
+Str+2 = 5
+HP+5, Str+2 = 7
+First 8 skills including fake 0 is leftmost byte,
+then resistance +2 (id 8) is bit 1 of the next byte

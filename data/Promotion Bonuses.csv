@@ -1,0 +1,61 @@
+Base Class,Promoted Class,HP,Str,Mag,Skl,Spd,Lck,Def,Res,Mov,New Weapon Ranks,,Passive Bonuses
+Nohr Prince(ss),Nohr Noble,1,1,4,1,3,0,1,5,1,Tomes,,
+Nohr Prince(ss),Hoshido Noble,2,3,1,2,2,2,4,1,1,Staves,,
+Nohr Prince(ss),Lodestar,2,0,-3,8,4,5,2,0,1,Loses Dragonstones,,"+10 Hit, +5 Crit, +10 Avoid"
+Nohr Prince(ss),Great Lord,1,1,-2,4,4,3,2,1,1,"Lances, Loses Dragonstones",,
+Samurai,Swordmaster,1,2,2,3,3,1,2,2,1,,,"+15 Crit, +10 Avoid"
+Samurai,Master of Arms,3,4,0,1,1,0,4,0,1,"Lances, Axes",,
+Samurai,Great Lord,1,3,1,2,1,2,4,0,1,Lances,,
+Villager,Merchant,3,4,0,2,1,2,4,5,1,Bows,,
+Villager,Master of Arms,3,4,0,3,4,0,3,3,1,"Swords, Axes",,
+Apothecary,Merchant,2,3,0,2,2,3,2,3,1,Lances,,
+Apothecary,Mechanist,0,1,0,5,3,0,0,4,2,Shurikens,,
+Ninja,Master Ninja,1,2,0,2,3,1,1,5,1,Swords,,"+5 Hit, +5 Crit, +5 Avoid, +5 Dodge"
+Ninja,Mechanist,2,4,0,1,-1,1,3,3,2,Bows,,
+Ninja,Dread Fighter,3,5,3,-2,0,0,3,6,1,Tomes,,
+Ninja,"Butler, Maid",2,2,6,2,2,3,2,2,1,"Staves, Lances",,
+Oni Savage,Oni Chieftain,1,3,4,2,2,0,3,4,1,Tomes,,
+Oni Savage,Blacksmith,3,3,-1,7,3,3,1,1,1,Bows,,
+Oni Savage,Vanguard,3,4,-1,6,2,3,2,0,1,Swords,,
+Spear Fighter,Spear Master,2,3,0,3,2,1,3,1,1,,,"+5 Hit, +10 Crit, +10 Dodge"
+Spear Fighter,Basara,3,1,5,1,1,3,2,4,1,Tomes,,
+Diviner,Onmyoji,1,0,4,3,2,2,1,3,1,Staves,,
+Diviner,Basara,5,7,1,1,1,3,5,2,1,Lances,,
+Diviner,Dread Fighter,4,8,-1,0,2,-1,4,5,1,Shurikens,,
+Diviner,Grandmaster,3,7,2,3,1,0,4,4,1,Swords,,
+Monk/Shrine Maiden,Great Master,3,8,3,2,3,1,4,2,1,Lances,,"+5 Hit, +5 Avoid"
+Monk/Shrine Maiden,Priestess,3,6,4,2,4,1,3,3,1,Bows,,"+5 Hit, +5 Avoid"
+Monk/Shrine Maiden,Onmyoji,0,0,5,4,3,0,1,2,1,Tomes,,Loses +10 Dodge
+Sky Knight,Falcon Knight,2,2,4,1,3,1,3,3,1,Staves,,
+Sky Knight,Kinshi Knight,1,1,0,4,1,1,2,1,1,Bows,,
+Sky Knight,Dark Falcon,1,1,6,0,2,0,1,3,1,Tomes,,
+Archer,Sniper,2,2,0,5,4,1,2,1,1,,,"+10 Hit, +10 Crit"
+Archer,Kinshi Knight,0,-1,1,2,3,3,0,6,3,Lances,,
+Archer,Ballistician,4,7,0,2,0,2,5,0,0,Lances,,
+Kitsune,Nine-Tails,3,1,3,3,3,2,1,4,1,,,"+5 Crit, +10 Avoid, +10 Dodge"
+Cavalier,Paladin,2,2,1,3,2,1,2,4,1,,,
+Cavalier,Great Knight,4,4,0,1,1,0,5,-1,0,Axes,,
+Cavalier,Dark Knight,2,2,6,1,0,0,3,3,1,Tomes,,
+Cavalier,Dark Falcon,0,-2,7,0,4,1,-2,6,1,"Tomes, Loses Swords",,
+Knight,General,4,4,0,4,1,1,4,3,1,Swords,,
+Knight,Great Knight,2,2,0,1,3,0,2,1,3,Swords,,
+Knight,Ballistician,2,4,0,4,2,1,1,0,1,"Bows, Loses Axes",,
+Fighter,Berserker,5,5,0,2,3,-2,1,-1,1,,,"+25 Crit, -5 Dodge"
+Fighter,Hero,1,1,0,6,3,1,3,2,1,Swords,,
+Mercenary,Hero,3,3,0,5,3,1,2,1,1,Axes,,
+Mercenary,Bow Knight,1,1,0,1,3,1,0,4,3,Bows,,
+Mercenary,Vanguard,4,5,0,1,1,1,4,-1,1,Axes,,
+Mercenary,Lodestar,2,2,0,5,3,5,2,0,1,,,
+Outlaw,Adventurer,1,2,5,3,3,1,1,5,1,Staves,,
+Outlaw,Bow Knight,2,3,-1,4,1,2,3,2,3,Swords,,
+Wyvern Rider,Wyvern Lord,2,2,0,4,2,1,3,1,1,Lances,,
+Wyvern Rider,Malig Knight,1,1,6,1,1,-2,1,6,1,Tomes,,
+Dark Mage,Sorcerer,1,0,3,2,3,0,3,3,1,,,"+5 Hit, +10 Crit, +5 Dodge"
+Dark Mage,Dark Knight,3,8,0,3,2,2,5,1,3,"Swords, Lances",,
+Dark Mage,Grandmaster,2,7,0,6,4,1,3,3,1,Swords,,
+Dark Mage,Witch,1,0,4,4,6,2,1,0,1,,,"+20 Crit, -5 Dodge"
+Troubadour,Strategist,1,0,4,0,2,1,1,3,1,Tomes,,Loses +10 Dodge
+Troubadour,Butler/Maid,3,5,3,3,5,0,4,1,-1,"Shurikens, Lances",,"+10 Hit, +5 Avoid, -5 Dodge"
+Wolfskin,Wolfssegner,3,3,0,2,1,1,3,1,1,,,"+10 Hit, +5 Crit, +10 Dodge"
+Lancer,Great Lord,0,3,1,3,4,3,0,1,1,Swords,,
+Lancer,Ballistician,3,7,0,4,0,2,2,-1,0,Bows,,

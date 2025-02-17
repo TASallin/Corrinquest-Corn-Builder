@@ -1,0 +1,307 @@
+Skill,Description,Icon Row,Icon Column,Cost,Restrictions,ID
+HP +5,Grants +5 to max HP.,0,2,4,[],1
+Strength +2,Grants Str+2.,0,3,2,[],2
+Magic +2,Grants Mag+2.,0,4,2,[],3
+Skill +2,Grants Skill+2.,0,5,1,[],4
+Speed +2,Grants Spd+2.,0,6,2,[],5
+Luck +4,Grants Lck+4.,0,7,1,[],6
+Defense +2,Grants Def+2.,0,8,1,[],7
+Resistance +2,Grants Res+2.,0,9,1,[],8
+Movement +1,Grants Mov+1.,0,10,3,[],9
+Draconic Hex,"After combat, reduces all of enemy's stats
+by 4 (recovers 1/turn).",0,11,12,"[{""Points Off"": false}]",10
+Seal Strength,"After combat, reduces enemy Str
+by 6 (recovers 1/turn).",0,12,2,[],11
+Seal Magic,"After combat, reduces enemy Mag
+by 6 (recovers 1/turn).",0,13,2,[],12
+Seal Speed,"After combat, reduces enemy Spd
+by 6 (recovers 1/turn).",0,14,2,[],13
+Seal Defense,"After combat, reduces enemy Def
+by 6 (recovers 1/turn).",0,15,2,[],14
+Seal Resistance,"After combat, reduces enemy Res
+by 6 (recovers 1/turn).",0,16,2,[],15
+Rally Strength,"Use ""Rally"" to grant Str+4 to units
+within two spaces for one turn.",0,17,4,[],16
+Rally Magic,"Use ""Rally"" to grant Mag+4 to units
+within two spaces for one turn.",0,18,2,[],17
+Rally Skill,"Use ""Rally"" to grant Skill+4 to units
+within two spaces for one turn.",0,19,2,[],18
+Rally Speed,"Use ""Rally"" to grant Spd+4 to units
+within two spaces for one turn.",0,20,4,[],19
+Rally Luck,"Use ""Rally"" to grant Lck+8 to units
+within two spaces for one turn.",1,0,2,[],20
+Rally Defense,"Use ""Rally"" to grant Def+4 to units
+within two spaces for one turn.",1,1,2,[],21
+Rally Resistance,"Use ""Rally"" to grant Res+4 to units
+within two spaces for one turn.",1,2,2,[],22
+Rally Movement,"Use ""Rally"" to grant Mov+1 to units
+within two spaces for one turn.",1,3,7,"[{""Points Off"": false}]",23
+Inspiring Song,"Use ""Sing"" to grant an ally
+Skill/Spd/Lck+3 for one turn.",1,4,0,"[{""Always"": false}]",24
+Lethality,"Fell an enemy in one hit (the hit must do
+damage). Trigger % = (Skill stat * 0.25)",1,5,1,[],25
+Aether,"Use Sol and Luna in succession when
+attacking. Trigger % = (Skill stat * 0.5)",1,6,3,[],26
+Astra,"Strike five times at half damage.
+Trigger % = (Skill stat * 0.5)",1,7,3,[],27
+Dragon Fang,"Inflicts half of attack power as extra
+damage. Trigger % = (Skill stat * 0.75)",1,8,4,[],28
+Sol,"Absorb HP equal to half of damage
+dealt. Trigger % = (Skill stat)",1,9,4,[],29
+Luna,"Ignore half of enemy Def/Res when
+attacking. Trigger % = (Skill stat)",1,10,2,[],30
+Rend Heaven,"Add half foe's Str/Mag to unit's respective
+stat. Trigger % = (Skill stat * 1.5)",1,11,10,"[{""Points Off"": false}]",31
+Vengeance,"Add half accrued damage to attacks.
+Trigger % = (Skill stat * 1.5)",1,12,2,[],32
+Pavise,"Halve sword/lance/axe/beaststone/fist/saw
+damage. Trigger % = (Skill stat)",1,13,5,[],33
+Aegis,"Halve bow/tome/dragonstone/breath/rock/
+shuriken damage. Trigger % = (Skill stat)",1,14,5,[],34
+Dragon Ward,"Halve damage when adjacent ally is
+attacked. Trigger % = (target's Lck)",1,15,1,[],35
+Miracle,"If HP > 1, survive a lethal attack with 1 HP
+remaining. Trigger % = (Lck stat * 1.5)",1,16,3,[],36
+Counter,"Damage taken from an adjacent attacking
+enemy is also dealt back to that foe.",1,17,6,[],37
+Countermagic,"Magic damage taken from an attacking
+enemy is also dealt back to that foe.",1,18,2,[],38
+Vantage,"At start of combat, if HP=50% or less,
+always strike first, even when attacked.",1,19,8,"[{""Points Off"": false}]",39
+Beastbane,"Enables unit in animal form to deal bonus
+damage to beasts.",1,20,0,"[{""Always"": false}]",40
+Golembane,"Enables unit to deal bonus damage to
+mechanists, automatons, and stoneborn.",2,0,1,[],41
+Nohrian Trust,"This unit can use a supporting unit's
+triggered skills in combat.",2,1,2,[],42
+Hoshidan Unity,"Increases the trigger rate of this unit's
+skills by 10%.",2,2,2,[],43
+Shelter,"Grants use of the Shelter command.
+Use to pull another player unit into cover.",2,3,3,[],44
+Shove,"Grants use of the Shove command. Use to
+push an adjacent ally away one space.",2,4,3,[],45
+Lunge,"Grants use of Lunge command. After
+attacking, switches position with target.",2,5,3,[],46
+Swap,"Grants use of Swap command. Use to
+switch spaces with an adjacent ally.",2,6,3,[],47
+Replicate,"Grants use of Replicate command.
+Use once per battle to create a replica.",2,7,9,"[{""Points Off"": false}]",48
+Quick Draw,"This unit deals +4 damage when
+initiating combat.",2,8,6,[],49
+Strong Riposte,"This unit deals +3 damage when
+counterattacking.",2,9,5,[],50
+Elbow Room,"This unit deals +3 damage when fighting
+in a space with no terrain effects.",2,10,5,[],51
+Natural Cover,"This unit takes -3 damage when fighting
+in a space with a terrain effect.",2,11,4,[],52
+Evenhanded,"This unit deals +4 damage on
+even-numbered turns.",2,12,5,[],53
+Odd Shaped,"This unit deals +4 damage on
+odd-numbered turns.",2,13,5,[],54
+Life and Death,"During combat, +10 to damage
+dealt and taken.",2,14,7,"[{""Ranged"": false}]",55
+Spendthrift,"When attacking, unit expends a held gold
+bar for +10/-10 to damage dealt/taken.",2,15,3,[],56
+Duelist's Blow,"Grants Avo+30 when the unit initiates
+combat.",2,16,3,[],57
+Darting Blow,"Increases chance of follow-up attack when
+this unit initiates an attack (+5 off. Spd).",2,17,5,[],58
+Death Blow,"Grants Crit+20 when the unit initiates an
+attack.",2,18,5,[],59
+Certain Blow,"Grants Hit+40 when the unit initiates an
+attack.",2,19,6,[],60
+Armored Blow,"Unit receives -10 physical damage
+when the unit initiates an attack.",2,20,4,[],61
+Warding Blow,"Unit receives -20 magical damage
+when the unit initiates an attack.",3,0,3,[],62
+Trample,+5 damage dealt to nonmounted enemies.,3,1,10,"[{""Points Off"": false}]",63
+Wary Fighter,"Neither this unit nor enemies in combat
+with him/her can use follow-up attacks.",3,2,6,[],64
+Swordfaire,"+5 damage dealt if using a
+sword/katana.",3,3,12,"[{""Points Off"": false}]",65
+Lancefaire,"+5 damage dealt if using a
+lance/naginata.",3,4,12,"[{""Points Off"": false}]",66
+Axefaire,"+5 damage dealt if using an
+axe/club.",3,5,12,"[{""Points Off"": false}]",67
+Shurikenfaire,"+5 damage dealt if using a
+shuriken/dagger.",3,6,12,"[{""Points Off"": false}]",68
+Bowfaire,"+5 damage dealt if using a
+bow/yumi.",3,7,12,"[{""Points Off"": false}]",69
+Tomefaire,"+5 damage dealt if using a
+tome/scroll.",3,8,12,"[{""Points Off"": false}]",70
+Defender,"Grants +1 to all stats when paired up as
+the lead unit.",3,9,4,[],71
+Charm,"Allies within two spaces inflict +2
+damage in combat.",3,10,6,[],72
+Gentilhomme,"Female allies within two spaces receive
+-2 damage in combat.",3,11,3,[],73
+Demoiselle,"Male allies within two spaces receive
+-2 damage in combat.",3,12,3,[],74
+Inspiration,"Allies within two spaces get +2 to damage
+dealt and -2 to damage received.",3,13,10,"[{""Points Off"": false}]",75
+Malefic Aura,"Enemies within two spaces take +2 damage
+when hit by a magic attack.",3,14,4,[],76
+Voice of Peace,"Enemies within two spaces inflict -2
+damage with their physical attacks.",3,15,3,[],77
+Foreign Princess,"Vallite Army units within two spaces
+take -2/+2 to damage dealt/taken.",3,16,2,[],78
+Swordbreaker,"Grants Hit/Avo+50 if the enemy
+is using a sword/katana.",3,17,5,[],79
+Lancebreaker,"Grants Hit/Avo+50 if the enemy
+is using a lance/naginata.",3,18,5,[],80
+Axebreaker,"Grants Hit/Avo+50 if the enemy
+is using an axe/club.",3,19,5,[],81
+Shurikenbreaker,"Grants Hit/Avo+50 if the enemy
+is using a shuriken/dagger.",3,20,5,[],82
+Bowbreaker,"Grants Hit/Avo+50 if the enemy
+is using a bow/yumi.",4,0,5,[],83
+Tomebreaker,"Grants Hit/Avo+50 if the enemy
+is using a tome/scroll.",4,1,5,[],84
+Gamble,"Causes Hit-10, but
+grants Crit+10.",4,2,1,[],85
+Underdog,"Hit/Avo+15 if a foe's level is higher.
+(For adv. classes, add +20 to level.)",4,3,4,[],86
+Lucky Seven,"Grants Hit/Avo+20 for
+the first seven turns.",4,4,2,[],87
+Air Superiority,"Grants Hit/Avo+30 when
+battling flying enemies.",4,5,4,[],88
+Heartseeker,Adjacent enemies suffer -20 Avo.,4,6,5,[],89
+Quixotic,"Grants Hit+30 and +15% to skill-trigger
+rate to this unit and enemy in combat.",4,7,5,[],90
+Good Fortune,"Restores up to 20% HP at the start of
+each turn. Trigger % = (Lck stat * 33)",4,8,2,[],91
+Relief,"Restores up to 20% HP each turn if
+no units are within two spaces.",4,9,1,[],92
+Camaraderie,"Restores up to 10% HP each turn
+if an ally is within two spaces.",4,10,1,[],93
+Renewal,"Restores up to 30% HP
+at the start of each turn.",4,11,7,[],94
+Even Better,"Restores up to 40% HP at the start of
+even-numbered turns.",4,12,3,[],95
+Better Odds,"Restores up to 40% HP at the start of
+odd-numbered turns.",4,13,3,[],96
+Amaterasu,"Restores up to 20% HP of allies within
+two spaces at the start of each turn.",4,14,5,[],97
+Lifetaker,"Restores up to 50% HP if this unit initiates
+an attack and defeats the enemy.",4,15,4,[],98
+Potent Potion,"Makes most HP-recovery and stat-
+boosting items 150% as potent.",4,16,1,[],99
+Live to Serve,"When healing an ally with a staff, this unit
+recovers the same amount of HP.",4,17,3,[],100
+Poison Strike,"Enemies lose up to 20% HP after any
+combat this unit initiates.",4,18,2,[],101
+Savage Blow,"Foes within two spaces lose up to 20% HP
+after any combat this unit initiates.",4,19,5,[],102
+Grisly Wound,"Enemies lose up to 20% HP after any
+combat with this unit.",4,20,4,[],103
+Salvage Blow,"Receive Iron weapon when attacking and
+defeating foe. Trigger % = (Lck stat * 2)",5,0,1,[],104
+Profiteer,"Get a gold bar on each of unit's first
+7 turns. Trigger % = (Lck stat * 1.5)",5,1,2,[],105
+Nobility,Grants this unit a 20% bonus to EXP.,5,2,8,"[{""Points Off"": false}]",106
+Future Sight,"Double EXP if the unit attacks and defeats
+an enemy. Trigger % = (Lck stat * 3)",5,3,5,[],107
+Aptitude,"Adds 10% to each stat's odds of
+increasing at level up.",5,4,15,"[{""Points Off"": false}]",108
+Quick Salve,"Can take another action after using a
+recovery item or tonic.",5,5,1,[],109
+Galeforce,"If this unit initiates an unsupported attack
+and defeats the foe, take another turn.",5,6,15,"[{""Points Off"": false}]",110
+Pass,"Allows the unit to pass through
+spaces occupied by enemies.",5,7,5,[],111
+Locktouch,"Allows the unit to open doors
+and chests without keys.",5,8,1,[],112
+Brynhildr,"Halve magical  damage.
+Trigger % = (Skill stat)",5,9,0,"[{""Always"": false}]",113
+Dragonskin,"Halves damage taken, crits, and off. skills.
+Prevents lethal, poison, and counter skills.",5,10,25,"[{""Points Off"": false}]",114
+Divine Shield,"Halves damage taken. Prevents lethal,
+poison, and counter skills.",5,11,20,"[{""Points Off"": false}]",115
+Hit/Avo +10,Grants Hit/Avo+10.,5,12,7,"[{""Points Off"": false}]",116
+Lucky Seven Million,"Grants Hit/Avo+20 for
+the first seven million turns.",4,4,14,"[{""Points Off"": false}]",117
+Resist Status,"Halves stat-reduction effects, poison
+damage, and the Hit of status staves.",5,14,10,"[{""Points Off"": false}]",118
+Immune Status,"Prevents poison damage and status
+effects on this unit.",5,15,15,"[{""Points Off"": false}]",119
+Bold Stance,"When paired, this unit's partner fights as
+if backing up instead of being in cover.",5,16,5,"[{""Points Off"": false}]",120
+Point Blank,"Alters the range of bows to enable
+this unit to hit closer targets.",5,17,11,"[{""Points Off"": false}]",121
+Winged Shield,"Protects from bonus damage against fliers.
+Also enables unit to benefit from terrain.",5,18,10,"[{""Points Off"": false}]",122
+Void Curse,Enemies earn no EXP from this unit.,5,19,0,"[{""Always"": false}]",123
+Food Poisoning,"If HP < 50%, self-destruct and damage
+enemies and barriers within two spaces.",5,20,0,"[{""Always"": false}]",124
+Staff Savant,"Unit can activate staves without expending
+a use. Sets minimum staff range at 1-10.",6,0,25,"[{""Points Off"": false}]",125
+Immobilize,"When this unit hits, target's Mov is
+reduced to 0 and Avo by -20 for one turn.",6,1,15,"[{""Points Off"": false}]",126
+Inevitable End,"Status effects inflicted by unit
+on enemies will accumulate.",9,8,4,"[{""Points Off"": false}]",127
+Even Keel,"This unit receives -4 magic damage on
+even-numbered turns.",9,9,2,[],128
+Iron Will,"This unit receives -4 magic damage when
+an enemy initiates the attack.",9,10,3,[],129
+Clarity,"This unit recovers from status effects at
+twice the normal rate.",9,11,2,[],130
+Aggressor,"This unit deals +7 damage when he or she
+initiates the attack.",9,12,10,"[{""Points Off"": false}]",131
+Dual Striker,"When this unit is backing up another
+attacker, inflicts +3 damage to enemy.",9,13,4,[],132
+Awakening,"Grants +30 to Hit/Avo/Crit/Ddg when
+HP is half or less.",9,14,10,"[{""Points Off"": false}]",133
+Tactical Advice,"Grants Hit+10 to attacking ally when
+this unit is supporting.",9,15,2,[],134
+Solidarity,"Grants Crit/Ddg+10 to adjacent allies
+in combat.",9,16,3,[],135
+Ignis,"Add half Mag or Str to the other value
+when attacking. Trigger % = (Skill stat)",9,17,2,[],136
+Rally Spectrum,"Use ""Rally"" to grant +2 to all stats to
+allies within four spaces for one turn.",9,18,11,"[{""Points Off"": false}]",137
+Paragon,Doubles the EXP this unit receives.,9,19,18,"[{""Points Off"": false}]",138
+Armor Shield,"Protects from bonus damage
+against armor.",9,20,10,"[{""Points Off"": false}]",139
+Beast Shield,"Protects from bonus damage
+against beasts.",10,0,10,"[{""Points Off"": false}]",140
+Shadowgift,"Enables non-dark mages to use
+dark magic. At start of each turn,
+unit recovers from Hex, halved Str/
+Mag status, and halves reductions
+to unit's Mag. If unit carries Nos,
+instantly cleanses those statuses.",10,1,3,[],141
+Strengthtaker,"Str+2 on defeat of a foe you attacked
+(+10 max). Can't use with other Takers.",10,2,10,"[{""Points Off"": false}]",142
+Magictaker,"Mag+2 on defeat of a foe you attacked
+(+10 max). Can't use with other Takers.",10,3,10,"[{""Points Off"": false}]",143
+Skilltaker,"Skill+2 on defeat of a foe you attacked
+(+10 max). Can't use with other Takers.",10,4,5,[],144
+Speedtaker,"Spd+2 on defeat of a foe you attacked
+(+10 max). Can't use with other Takers.",10,5,10,"[{""Points Off"": false}]",145
+Lucktaker,"Lck+2 on defeat of a foe you attacked
+(+10 max). Can't use with other Takers.",10,6,4,[],146
+Defensetaker,"Def+2 on defeat of a foe you attacked
+(+10 max). Can't use with other Takers.",10,7,8,"[{""Points Off"": false}]",147
+Resistancetaker,"Res+2 on defeat of a foe you attacked
+(+10 max). Can't use with other Takers.",10,8,6,"[{""Points Off"": false}]",148
+Master Cleric,"Unit can activate staves without expending
+a use.",9,19,16,"[{""Points Off"": false}]",149
+Weapon Expert,"Unit does not suffer stat
+penalties from their weapon.",9,19,10,"[{""Points Off"": false}]",150
+Fortify Spectrum,"At the start of each turn, grants +2 to
+all stats to adjacent allies for one turn.",9,18,9,"[{""Points Off"": false}]",151
+Resolve,"Grants +4 Str/Mag/Skl/Spd when
+HP is half or less.",10,12,8,"[{""Points Off"": false}]",152
+Witch's Brew,"Obtain medicine on each of unit's first
+first 7 turns. Trigger % = (Lck stat * 2)",10,13,2,[],153
+Warp,"Use ""Warp"" to move next to an ally and
+then take another action.",10,14,12,"[{""Points Off"": false}]",154
+Toxic Brew,"Foes this unit attacks get Move 0, Avo-20
+for 1 turn. Trigger % = (Skill stat * 1.5)",10,15,5,[],155
+Dancing Blade,"This light-footed fighting style grants
+Spd+3 but Def-1.",10,16,3,[],156
+Dual Guardsman,"When paired up and in cover, grants
+additional Dual Guard points.",10,17,3,[],157
+Heavy Blade,"This unsubtle fighting style grants Str+3
+but Spd-1.",10,18,3,[],158
+Veteran Intuition,Grants Ddg+15 during battle.,10,19,3,[],159

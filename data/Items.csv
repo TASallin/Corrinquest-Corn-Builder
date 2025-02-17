@@ -1,0 +1,48 @@
+Name,ID,Type,Rank,Uses
+Iron Sword,2,Sword,D,0
+Steel Sword,3,Sword,C,0
+Silver Sword,4,Sword,B,0
+Iron Katana,22,Sword,D,0
+Steel Katana,23,Sword,C,0
+Silver Katana,24,Sword,B,0
+Iron Axe,91,Axe,D,0
+Steel Axe,92,Axe,C,0
+Silver Axe,93,Axe,B,0
+Iron Club,113,Axe,D,0
+Steel Club,114,Axe,C,0
+Silver Club,115,Axe,B,0
+Iron Lance,52,Lance,D,0
+Steel Lance,53,Lance,C,0
+Silver Lance,54,Lance,B,0
+Iron Naginata,71,Lance,D,0
+Steel Naginata,72,Lance,C,0
+Silver Naginata,73,Lance,B,0
+Iron Dagger,132,Dagger,D,0
+Steel Dagger,133,Dagger,C,0
+Silver Dagger,134,Dagger,B,0
+Iron Shuriken,147,Dagger,D,0
+Steel Shuriken,148,Dagger,C,0
+Silver Shuriken,149,Dagger,B,0
+Iron Bow,163,Bow,D,0
+Steel Bow,164,Bow,C,0
+Silver Bow,165,Bow,B,0
+Iron Yumi,181,Bow,D,0
+Steel Yumi,182,Bow,C,0
+Silver Yumi,183,Bow,B,0
+Thunder,203,Tome,D,0
+Fimulvetr,204,Tome,C,0
+Ragnarok,205,Tome,B,0
+Ox Spirit,220,Tome,D,0
+Tiger Spirit,221,Tome,C,0
+Rabbit Spirit,222,Tome,B,0
+Heal,234,Staff,E,20
+Mend,235,Staff,D,15
+Bloom Festival,249,Staff,E,20
+Sun Festival,250,Staff,D,15
+Beaststone,264,Stone,E,0
+Beastrune,265,Stone,C,0
+Beastsone+,266,Stone,B,0
+Dragonstone,262,Stone,E,0
+Dragonstone+,263,Stone,C,0
+Vulnerary,277,Item,E,3
+Master Seal,311,Item,E,1
