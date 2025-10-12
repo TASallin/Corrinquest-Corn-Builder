@@ -12,9 +12,9 @@ CORRIN_GROWTHS = [45, 45, 30, 40, 45, 45, 35, 25]
 CORRIN_BASES = [2, 0, 1, 3, 1, 3, 1, 0]
 WEAPON_TYPES = ["Sword", "Lance", "Axe", "Dagger", "Bow", "Tome", "Staff", "Stone"]
 HOSHIDAN_WEAPONS = ["Katana", "Naginata", "Club", "Shuriken", "Yumi"]
-STANDARD_METALS = ["Iron", "Steel", "Silver"]
-STANDARD_TOMES = ["Thunder", "Fimbulvetr", "Ragnarok"]
-STANDARD_SPIRITS = ["Ox Spirit", "Tiger Spirit", "Rabbit Spirit"]
+STANDARD_METALS = ["Bronze", "Iron", "Steel", "Silver"]
+STANDARD_TOMES = ["Fire", "Thunder", "Fimbulvetr", "Ragnarok"]
+STANDARD_SPIRITS = ["Rat Spirit", "Ox Spirit", "Tiger Spirit", "Rabbit Spirit"]
 CLASSES_DF["Weapon1"] = CLASSES_DF["Weapon1"].fillna('').astype(str)
 CLASSES_DF["Weapon2"] = CLASSES_DF["Weapon2"].fillna('').astype(str)
 CLASSES_DF["Weapon3"] = CLASSES_DF["Weapon3"].fillna('').astype(str)
@@ -201,16 +201,20 @@ def get_wxp_column(corrin, base_class, promoted_class, current_class, weapon_typ
         elif other_weapon not in promoted_weapons and weapon_type in promoted_weapons:
             wxp_column = "Main WXP"
         elif "Stone" in base_weapons:
-            if corrin.boon_name == "Mag" or corrin.bane_name == "Str":
-                if weapon_type == "Stone":
-                    wxp_column = "Main WXP"
-                else:
-                    wxp_column = "Secondary WXP"
+            if weapon_type == "Stone":
+                wxp_column = "Secondary WXP"
             else:
-                if weapon_type == "Stone":
-                    wxp_column = "Secondary WXP"
-                else:
-                    wxp_column = "Main WXP"
+                wxp_column = "Main WXP"
+            #if corrin.boon_name == "Mag" or corrin.bane_name == "Str":
+            #    if weapon_type == "Stone":
+            #        wxp_column = "Main WXP"
+            #    else:
+            #        wxp_column = "Secondary WXP"
+            #else:
+            #    if weapon_type == "Stone":
+            #        wxp_column = "Secondary WXP"
+            #    else:
+            #        wxp_column = "Main WXP"
         elif weapon_type == "Lance":
             wxp_column = "Main WXP"
         else:
@@ -230,10 +234,31 @@ def get_class_weapons(current_class):
 
 def assign_items(chapter, corrin):
     corrin.items = []
+    base_class = corrin.base_class_name
+    promoted_class = corrin.promoted_class_name
     for i in range(len(corrin.weapon_ranks)):
+        if corrin.weapon_ranks[i] > 0 and chapter == 7 and get_wxp_column(corrin, base_class, promoted_class, base_class, WEAPON_TYPES[i]) == "Secondary WXP" and WEAPON_TYPES[i] not in ["Staff", "Stone"]:
+            continue
         weapons = get_items_for_weapon_type(i, corrin.weapon_ranks[i], chapter, corrin)
         for weapon in weapons:
             corrin.items.append(weapon)
+    if chapter == 7: # Give Bronze
+        base_weapons = get_class_weapons(base_class)
+        if len(base_weapons) == 1:
+            if base_weapons[0] in ["Staff", "Stone"]:
+                pass
+            else:
+                bronze = get_item_from_name(construct_weapon_name("Bronze", base_weapons[0], base_class))
+                corrin.items.append(bronze)
+        else:
+            for weapon_type in base_weapons:
+                if get_wxp_column(corrin, base_class, promoted_class, base_class, weapon_type) == "Secondary WXP":
+                    if weapon_type in ["Staff", "Stone"]:
+                        pass
+                    else:
+                        bronze = get_item_from_name(construct_weapon_name("Bronze", weapon_type, base_class))
+                        corrin.items.append(bronze)
+                    break
     corrin.items.append(get_item_from_name("Vulnerary"))
     level = int(CHAPTER_DF.loc[CHAPTER_DF["Chapter"] == chapter, "Level"].iloc[0])
     if level == 20:
@@ -267,7 +292,7 @@ def get_items_for_weapon_type(weapon_index, rank, chapter, corrin):
             if chapter >= RUNE_THRESHOLD:
                 weapons.append(get_item_from_name("Beastrune"))
             if chapter >= SILVER_THRESHOLD:
-                weapons.append(get_item_from_name("Beastone+"))
+                weapons.append(get_item_from_name("Beaststone+"))
         else:
             weapons.append(get_item_from_name("Dragonstone"))
             if chapter >= SILVER_THRESHOLD:
@@ -309,6 +334,8 @@ def construct_weapon_name(prefix, weapon_type, current_class):
                 return "Mend"
     else:
         if hoshidan:
+            if prefix == "Bronze":
+                prefix = "Brass"
             suffix = HOSHIDAN_WEAPONS[WEAPON_TYPES.index(weapon_type)]
         else:
             suffix = weapon_type

@@ -8,6 +8,8 @@ Samurai,Master of Arms,3,4,0,1,1,0,4,0,1,"Lances, Axes",,
 Samurai,Great Lord,1,3,1,2,1,2,4,0,1,Lances,,
 Villager,Merchant,3,4,0,2,1,2,4,5,1,Bows,,
 Villager,Master of Arms,3,4,0,3,4,0,3,3,1,"Swords, Axes",,
+Villager,Falcon Knight,1,0,5,2,5,2,1,9,3,Staves,,
+Villager,Basara,3,2,5,3,2,2,3,6,1,Tomes,,
 Apothecary,Merchant,2,3,0,2,2,3,2,3,1,Lances,,
 Apothecary,Mechanist,0,1,0,5,3,0,0,4,2,Shurikens,,
 Ninja,Master Ninja,1,2,0,2,3,1,1,5,1,Swords,,"+5 Hit, +5 Crit, +5 Avoid, +5 Dodge"
@@ -59,3 +61,5 @@ Troubadour,Butler/Maid,3,5,3,3,5,0,4,1,-1,"Shurikens, Lances",,"+10 Hit, +5 Avoi
 Wolfskin,Wolfssegner,3,3,0,2,1,1,3,1,1,,,"+10 Hit, +5 Crit, +10 Dodge"
 Lancer,Great Lord,0,3,1,3,4,3,0,1,1,Swords,,
 Lancer,Ballistician,3,7,0,4,0,2,2,-1,0,Bows,,
+Lancer,General,5,7,0,4,-1,2,5,2,0,,,
+Lancer,Paladin,1,3,1,3,2,2,0,5,3,,,

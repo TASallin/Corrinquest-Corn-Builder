@@ -26,8 +26,8 @@ Hoshido Noble,TRUE,Sword,Stone,Staff,Dragon Ward,Hoshidan Unity,TRUE,"Dragon, Dr
 Kinshi Knight,TRUE,Bow,Lance,,Air Superiority,Amaterasu,TRUE,"Beast, Flying, Mounted, Ranged",,,,,17,4,1,9,8,5,4,7,0,5,0,15,15,15,0,15,50,27,26,33,31,34,25,31,535,1331,535,1331,61,62,,
 Kitsune,FALSE,Stone,,,Evenhanded,Beastbane,TRUE,"Beast, Beaststone",Nine-Tails,,,,16,5,3,7,8,4,3,7,10,10,10,20,20,15,0,20,40,20,18,24,24,24,18,23,470,1509,535,1509,99,100,,
 Knight,FALSE,Lance,Axe,,Defense +2,Natural Cover,FALSE,Armored,General,Great Knight,Ballistician,,19,8,0,5,3,3,8,1,20,20,0,15,5,10,20,0,45,24,15,22,17,22,26,18,338,1152,338,1152,13,14,145,146
-Lancer,FALSE,Lance,,,Good Fortune,Rally Skill,FALSE,,Ballistician,Great Lord,,,18,5,0,5,5,2,7,2,15,10,0,10,10,5,20,10,60,31,25,29,29,30,31,29,75,1598,75,1598,106,163,,
-Lodestar,TRUE,Sword,,,Dual Guardsman,Speedtaker,FALSE,,,,,,19,7,0,12,9,7,7,2,15,10,0,25,15,25,5,5,60,29,26,40,33,40,30,29,273,1598,273,1598,124,166,,
+Lancer,FALSE,Lance,,,Good Fortune,Rally Skill,FALSE,,Ballistician,Great Lord,General,Paladin,18,5,0,5,5,2,7,2,15,10,0,10,10,5,20,10,60,31,25,29,29,30,31,29,75,1598,75,1598,106,163,176,177
+Lodestar,TRUE,Sword,,,Dual Guardsman,Speedtaker,FALSE,,,,,,19,7,0,12,10,7,7,2,15,10,0,25,20,25,5,5,60,29,26,40,34,40,30,29,273,1598,273,1598,124,166,,
 Malig Knight,TRUE,Axe,Tome,,Savage Blow,Trample,FALSE,"Dragon, Magic, Mounted, Ranged",,,,,18,7,6,6,5,0,8,6,10,15,15,10,5,0,10,15,55,31,30,28,27,25,31,31,141,1420,141,1420,71,72,,
 Master Ninja,TRUE,Dagger,Sword,,Lethality,Shurikenfaire,TRUE,Ranged,,,,,17,5,0,10,11,2,4,8,5,5,0,20,20,0,5,20,55,27,25,35,35,28,26,34,273,1420,273,1420,73,74,,
 Master of Arms,TRUE,Sword,Lance,Axe,Seal Strength,Life and Death,TRUE,,,,,,20,9,0,7,9,3,7,3,20,15,0,10,10,10,10,0,65,33,25,30,31,31,31,28,338,1241,338,1241,35,36,,
@@ -49,14 +49,14 @@ Samurai,FALSE,Sword,,,Duelist's Blow,Vantage,TRUE,,Swordmaster,Master of Arms,Gr
 Sky Knight,FALSE,Lance,,,Even Keel,Darting Blow,TRUE,"Beast, Flying, Mounted",Falcon Knight,Kinshi Knight,Dark Falcon,,16,3,1,5,7,4,2,6,0,10,5,10,15,20,0,20,35,19,16,21,23,25,18,25,404,1331,404,1331,59,60,155,156
 Sniper,TRUE,Bow,,,Certain Blow,Bowfaire,TRUE,Ranged,,,,,19,7,0,12,9,3,6,2,10,15,0,25,15,5,10,0,55,31,25,40,33,30,31,28,667,1331,667,1331,65,66,,
 Sorcerer,TRUE,Tome,,,Vengeance,Bowbreaker,FALSE,"Can Use Dark Magic, Magic, Ranged",,,,,17,0,9,5,6,1,6,8,5,0,25,0,10,0,10,15,50,25,35,26,29,26,29,33,601,1420,601,1420,83,84,,
-Spear Fighter,FALSE,Lance,,,Seal Defense,Swap,TRUE,,Spear Master,Basara,,,17,6,0,6,6,2,5,2,15,15,0,15,15,5,10,5,40,22,15,23,22,21,22,21,601,1241,601,1241,45,46,,
-Spear Master,TRUE,Lance,,,Seal Speed,Lancefaire,TRUE,,,,,,19,9,0,9,8,3,8,3,15,20,0,15,15,5,10,5,60,34,25,33,32,29,30,29,667,1241,667,1241,43,44,,
+Spear Fighter,FALSE,Lance,,,Seal Defense,Swap,TRUE,,Spear Master,Basara,,,17,6,0,6,6,2,5,2,15,15,5,15,15,5,10,5,40,22,15,23,22,21,22,21,601,1241,601,1241,45,46,,
+Spear Master,TRUE,Lance,,,Seal Speed,Lancefaire,TRUE,,,,,,19,9,0,9,8,3,8,3,15,20,0,15,15,5,10,5,60,34,25,33,32,29,31,29,667,1241,667,1241,43,44,,
 Strategist,TRUE,Staff,Tome,,Rally Resistance,Inspiration,FALSE,"Beast, Magic, Mounted, Ranged",,,,,16,0,7,7,7,5,2,7,0,0,15,10,10,20,0,15,45,25,33,30,31,35,25,32,75,1509,75,1509,89,90,,
 Swordmaster,TRUE,Sword,,,Astra,Swordfaire,TRUE,,,,,,18,7,2,9,11,4,5,5,10,10,5,15,20,15,0,10,55,30,28,33,35,33,27,31,273,1241,273,1241,31,32,,
 Troubadour Demoiselle,FALSE,Staff,,,Resistance +2,Demoiselle,FALSE,"Beast, Mounted",Strategist,Butler/Maid,,,15,0,3,7,5,4,1,4,0,5,10,20,10,15,0,15,35,16,19,24,20,23,16,21,9,1509,9,1509,170,92,,
 Troubadour Gentilhomme,FALSE,Staff,,,Resistance +2,Gentilhomme,FALSE,"Beast, Mounted",Strategist,Butler/Maid,,,15,0,3,7,5,4,1,4,0,5,10,20,10,15,0,15,35,16,19,24,20,23,16,21,9,1509,9,1509,91,171,,
 Vanguard,TRUE,Sword,Axe,,Aether,Resolve,TRUE,,,,,,21,10,0,8,7,3,9,1,20,20,0,15,5,10,15,0,65,36,25,32,30,30,32,27,470,1598,470,1598,125,167,,
-Villager,FALSE,Lance,,,Future Sight,Lucktaker,TRUE,,Merchant,Master of Arms,,,17,5,0,4,5,3,4,0,15,15,0,15,15,30,15,0,35,19,15,19,19,22,18,15,9,1598,9,1598,104,105,,
+Villager,FALSE,Lance,,,Future Sight,Lucktaker,TRUE,,Merchant,Master of Arms,Falcon Knight,Basara,17,5,0,4,5,3,4,0,15,15,10,15,15,30,15,0,35,19,15,19,19,22,18,15,9,1598,9,1598,104,105,174,175
 Witch,TRUE,Tome,,,Shadowgift,Resistancetaker,FALSE,"Magic, Ranged",,,,,17,0,10,7,9,3,4,5,0,0,25,10,20,5,0,10,50,25,36,30,34,28,26,29,601,1598,601,1598,165,123,,
 Wolfskin,FALSE,Stone,,,Odd Shaped,Beastbane,FALSE,"Beast, Beaststone",Wolfssegner,,,,19,8,0,4,6,0,4,0,20,20,0,5,15,5,10,0,45,24,15,18,22,17,21,15,207,1509,272,1509,95,96,,
 Wolfssegner,TRUE,Stone,,,Better Odds,Aggressor,FALSE,"Beast, Beaststone",,,,,22,11,0,6,7,1,7,1,20,20,0,5,15,5,15,0,65,36,25,29,31,26,32,26,338,1509,404,1509,97,98,,

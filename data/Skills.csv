@@ -99,7 +99,7 @@ even-numbered turns.",2,12,5,[],53
 Odd Shaped,"This unit deals +4 damage on
 odd-numbered turns.",2,13,5,[],54
 Life and Death,"During combat, +10 to damage
-dealt and taken.",2,14,7,"[{""Ranged"": false}]",55
+dealt and taken.",2,14,7,"[{""Points Off"": false}]",55
 Spendthrift,"When attacking, unit expends a held gold
 bar for +10/-10 to damage dealt/taken.",2,15,3,[],56
 Duelist's Blow,"Grants Avo+30 when the unit initiates
@@ -291,7 +291,7 @@ penalties from their weapon.",9,19,10,"[{""Points Off"": false}]",150
 Fortify Spectrum,"At the start of each turn, grants +2 to
 all stats to adjacent allies for one turn.",9,18,9,"[{""Points Off"": false}]",151
 Resolve,"Grants +4 Str/Mag/Skl/Spd when
-HP is half or less.",10,12,8,"[{""Points Off"": false}]",152
+HP is half or less.",10,12,8,[],152
 Witch's Brew,"Obtain medicine on each of unit's first
 first 7 turns. Trigger % = (Lck stat * 2)",10,13,2,[],153
 Warp,"Use ""Warp"" to move next to an ally and
