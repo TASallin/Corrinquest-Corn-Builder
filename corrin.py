@@ -3,6 +3,7 @@ class Corrin:
         # Basic Info
         self.corrin_name = ""
         self.twitch_name = ""
+        self.timestamp = ""
         
         # Appearance
         self.build = ""
@@ -84,7 +85,8 @@ class Corrin:
             'Base Class': self.base_class_name,
             'Promoted Class': self.promoted_class_name,
             'Personal Skill 1': self.personal_skill_1_name,
-            'Personal Skill 2': self.personal_skill_2_name
+            'Personal Skill 2': self.personal_skill_2_name,
+            'Timestamp': self.timestamp
         }
 
 class Item:
@@ -100,6 +102,7 @@ def json_to_character(json_data):
     # Basic Info
     char.corrin_name = json_data.get('name', '')
     char.twitch_name = json_data.get('twitchUsername', '')
+    char.timestamp = json_data.get('creationDate', '1_1_1_1')
     
     # Appearance
     appearance = json_data.get('appearance', {})

@@ -28,6 +28,8 @@ class CharacterConverterGUI(tk.Tk):
         self.input_path = tk.StringVar()
         self.output_path = tk.StringVar()
         self.chapter = tk.StringVar()
+        self.most_recent = tk.IntVar()
+        self.most_recent.set(1)
         self.chapter.set(str(MIN_CHAPTER))
         
         self._create_widgets()
@@ -96,6 +98,12 @@ class CharacterConverterGUI(tk.Tk):
             style='Accent.TButton'
         )
 
+        self.most_recent_checkbox = ttk.Checkbutton(
+            self.buttons_frame,
+            text="Only include each chatter's most recent submission",
+            variable=self.most_recent
+        )
+
         # Configure styles
         self.style = ttk.Style()
         self.style.configure('Accent.TButton', background=ACCENT_CYAN)
@@ -120,6 +128,7 @@ class CharacterConverterGUI(tk.Tk):
         self.buttons_frame.pack(fill=X, padx=10, pady=5)
         self.export_spreadsheet_btn.pack(side=LEFT, padx=5)
         self.export_units_btn.pack(side=LEFT, padx=5)
+        self.most_recent_checkbox.pack(side=LEFT, padx=5)
 
     def _select_file(self):
         filename = filedialog.askopenfilename(
@@ -171,6 +180,9 @@ class CharacterConverterGUI(tk.Tk):
         if not characters:
             tk.messagebox.showerror("Error", "No valid JSON files found.")
             return
+
+        if self.most_recent.get():
+            characters = self.filter_obsolete_characters(characters)
             
         # Export to CSV
         output_file = os.path.join(self.output_path.get(), 'Submitted Corrins.csv')
@@ -181,7 +193,7 @@ class CharacterConverterGUI(tk.Tk):
                 'Hair Color', 'Color Hex Code', 'Face', 'Facial Feature', 'Voice',
                 'Hair Accessory', 'Face Accessory', 'Arm Accessory', 'Body Accessory',
                 'Boon', 'Bane', 'Base Class', 'Promoted Class',
-                'Personal Skill 1', 'Personal Skill 2'
+                'Personal Skill 1', 'Personal Skill 2', 'Timestamp'
             ])
             
             writer.writeheader()
@@ -219,6 +231,9 @@ class CharacterConverterGUI(tk.Tk):
             tk.messagebox.showerror("Error", "No valid JSON files found.")
             return
 
+        if self.most_recent.get():
+            characters = self.filter_obsolete_characters(characters)
+
         corrin_names = []
         duplicate_names = []
         for char in characters:
@@ -239,3 +254,29 @@ class CharacterConverterGUI(tk.Tk):
                 file.write(bytearr)
 
         tk.messagebox.showinfo("Success", f"Units exported to {self.output_path.get()}")
+
+    def filter_obsolete_characters(self, characters):
+        to_delete = []
+        twitch_dict = {}
+        for char in characters:
+            if char.twitch_name in twitch_dict.keys():
+                dict_char = twitch_dict[char.twitch_name]
+                if self.compare_timestamps(char.timestamp, dict_char.timestamp) > 0:
+                    twitch_dict[char.twitch_name] = char
+                    to_delete.append(dict_char)
+                else:
+                    to_delete.append(char)
+            else:
+                twitch_dict[char.twitch_name] = char
+        return [c for c in characters if c not in to_delete]
+
+    #Returns 1 if the first timestamp is later than the second, -1 if it is earlier, and 0 if they are at the same time
+    def compare_timestamps(self, stampstring1, stampstring2):
+         stamp1 = stampstring1.split('_')
+         stamp2 = stampstring2.split('_')
+         for i in range(len(stamp1)):
+             if stamp1[i] > stamp2[i]:
+                 return 1
+             elif stamp1[i] < stamp2[i]:
+                 return -1
+         return 0

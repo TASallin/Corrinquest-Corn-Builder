@@ -59,7 +59,7 @@ damage. Trigger % = (Skill stat)",1,13,5,[],33
 Aegis,"Halve bow/tome/dragonstone/breath/rock/
 shuriken damage. Trigger % = (Skill stat)",1,14,5,[],34
 Dragon Ward,"Halve damage when adjacent ally is
-attacked. Trigger % = (target's Lck)",1,15,1,[],35
+attacked. Trigger % = (target's Lck * 1.25)",1,15,1,[],35
 Miracle,"If HP > 1, survive a lethal attack with 1 HP
 remaining. Trigger % = (Lck stat * 1.5)",1,16,3,[],36
 Counter,"Damage taken from an adjacent attacking
@@ -268,7 +268,7 @@ Shadowgift,"Enables non-dark mages to use
 dark magic. At start of each turn,
 unit recovers from Hex, halved Str/
 Mag status, and halves reductions
-to unit's Mag. If unit carries Nos,
+to unit's Str/Mag. If unit carries Nos,
 instantly cleanses those statuses.",10,1,3,[],141
 Strengthtaker,"Str+2 on defeat of a foe you attacked
 (+10 max). Can't use with other Takers.",10,2,10,"[{""Points Off"": false}]",142
