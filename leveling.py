@@ -5,7 +5,6 @@ from corrin import Corrin, Item
 CLASSES_DF = pd.read_csv("data/Classes.csv")
 BOON_BANE_DF = pd.read_csv("data/Boon Bane.csv")
 CHAPTER_DF = pd.read_csv("data/Chapter Levels.csv")
-PROMOTIONS_DF = pd.read_csv("data/Promotion Bonuses.csv")
 SKILLS_DF = pd.read_csv("data/Skills.csv")
 ITEMS_DF = pd.read_csv("data/Items.csv")
 CORRIN_GROWTHS = [45, 45, 30, 40, 45, 45, 35, 25]
@@ -126,10 +125,12 @@ def fixed_growths_level(stats, growths, caps):
     return stats
 
 def promote_corrin(corrin, stats):
-    promotion_row = PROMOTIONS_DF.loc[PROMOTIONS_DF["Base Class"] == corrin.base_class_name]
-    promotion_row = promotion_row.loc[promotion_row["Promoted Class"] == corrin.promoted_class_name]
-    promotion_bonuses = [int(promotion_row["HP"].iloc[0]), int(promotion_row["Str"].iloc[0]), int(promotion_row["Mag"].iloc[0]), int(promotion_row["Skl"].iloc[0]),
-            int(promotion_row["Spd"].iloc[0]), int(promotion_row["Lck"].iloc[0]), int(promotion_row["Def"].iloc[0]), int(promotion_row["Res"].iloc[0])]
+    promoted_row = CLASSES_DF.loc[CLASSES_DF["Name"] == corrin.promoted_class_name]
+    base_row = CLASSES_DF.loc[CLASSES_DF["Name"] == corrin.base_class_name]
+    promotion_bonuses = [int(promoted_row["HPBase"].iloc[0]) - int(base_row["HPBase"].iloc[0]), int(promoted_row["StrengthBase"].iloc[0]) - int(base_row["StrengthBase"].iloc[0]), 
+            int(promoted_row["MagicBase"].iloc[0]) - int(base_row["MagicBase"].iloc[0]), int(promoted_row["SkillBase"].iloc[0]) - int(base_row["SkillBase"].iloc[0]),
+            int(promoted_row["SpeedBase"].iloc[0]) - int(base_row["SpeedBase"].iloc[0]), int(promoted_row["LuckBase"].iloc[0]) - int(base_row["LuckBase"].iloc[0]), 
+            int(promoted_row["DefenseBase"].iloc[0]) - int(base_row["DefenseBase"].iloc[0]), int(promoted_row["ResistanceBase"].iloc[0]) - int(base_row["ResistanceBase"].iloc[0])]
     for i in range(len(stats)):
         stats[i] = stats[i] + promotion_bonuses[i]
     return stats
