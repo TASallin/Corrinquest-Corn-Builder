@@ -216,9 +216,15 @@ def get_wxp_column(corrin, base_class, promoted_class, current_class, weapon_typ
             #    else:
             #        wxp_column = "Main WXP"
         elif weapon_type == "Lance":
-            wxp_column = "Main WXP"
+            if corrin.wr_seed == 1:
+                wxp_column = "Main WXP"
+            else:
+                wxp_column = "Secondary WXP"
         else:
-            wxp_column = "Secondary WXP"
+            if corrin.wr_seed == 2:
+                wxp_column = "Main WXP"
+            else:
+                wxp_column = "Secondary WXP"
     return wxp_column
 
 

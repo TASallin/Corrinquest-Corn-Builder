@@ -1,9 +1,12 @@
+import random
+
 class Corrin:
     def __init__(self):
         # Basic Info
         self.corrin_name = ""
         self.twitch_name = ""
         self.timestamp = ""
+        self.wr_seed = random.randint(1,2) #1 = Lance Main Weapon, 2 = Not Lance Main Weapon
         
         # Appearance
         self.build = ""
@@ -100,8 +103,8 @@ def json_to_character(json_data):
     char = Corrin()
     
     # Basic Info
-    char.corrin_name = json_data.get('name', '')
-    char.twitch_name = json_data.get('twitchUsername', '')
+    char.corrin_name = json_data.get('name', '').replace("â€™", "'")
+    char.twitch_name = json_data.get('twitchUsername', '').replace("â€™", "'")
     char.timestamp = json_data.get('creationDate', '1_1_1_1')
     
     # Appearance
