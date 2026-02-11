@@ -1,50 +1,139 @@
 Corrin Name,Twitch Name,Build,Hair,Hair Clip,Hair Color,Color Hex Code,Face,Facial Feature,Voice,Hair Accessory,Face Accessory,Arm Accessory,Body Accessory,Boon,Bane,Base Class,Promoted Class,Personal Skill 1,Personal Skill 2,Timestamp
+CritrNoQuitr,1gn0r3_m3,short-male,6,0,10,#c0aa9c,1,3,mute,Chef Hat,,,Marth Voice,Skl,Res,Outlaw,Bow Knight,Tomebreaker,Nohrian Trust,2_10_11_39
+Dreamy,2shyshy,tall-male,9,0,6,#7dbbc4,5,0,mute,Roguish Hat,,Robin's Books,Laslow Voice,Skl,Def,Ninja,Master Ninja,Quixotic,Lifetaker,2_9_18_30
 2B,adexdawn_2,tall-female,1,0,1,#f6f4ef,1,8,mute,,,,Scarlet Voice,Def,Mag,Spear Fighter,Spear Master,Seal Strength,HP +5,2_5_13_6
-Forsyth,aforsythtobereckonedwith,short-male,10,0,15,#6f845f,5,3,mute,,Tinted Glasses,Armory Sheild,Kaden Voice,Mag,Str,Diviner,Onmyoji,Shadowgift,Lifetaker,2_4_14_36
-Sebastian,AwakeningHikari,tall-male,3,0,Custom,#000000,3,0,mute,,,,Jakob Voice,Str,Mag,Ninja,Butler/Maid,Heartseeker,Lethality,2_4_11_17
-Kohaku,Blackwing757,tall-female,10,0,2,#c35855,0,0,jp-energetic,White Ribbon,,,,Mag,Skl,Samurai,Swordmaster,Toxic Brew,Witch's Brew,2_4_12_20
-Dusk,BoatTheCar,tall-female,7,2,Custom,#121212,2,8,jp-mature,Witch's Hat,Sunglasses,Wolf Tail,,Str,Mag,Ninja,Master Ninja,HP +5,Sol,2_5_23_56
-Bones,Bones63,short-male,0,0,28,#af81d5,0,0,mute,Straw Hat,,,Ignatius Voice,HP,Mag,Monk/Shrine Maiden,Great Master,Wary Fighter,HP +5,2_5_18_59
-Bugged,BuggedData,tall-female,9,0,Custom,#c869ff,1,12,older,Chef Hat,Butterfly Mask,Battle Flag,Custom Outfit,Str,Mag,Mercenary,Hero,Swordbreaker,Lancebreaker,2_5_15_35
-Tirokafteri,Cournsword,tall-female,5,0,18,#82678c,3,8,older,Dark Diadem,,Battle Flag,Custom Outfit,Mag,Str,Monk/Shrine Maiden,Onmyoji,Resolve,HP +5,2_4_13_35
+Forsyth,aforsythtobereckonedwith,short-male,10,0,15,#6f845f,5,3,mute,Nightcap,Tinted Glasses,Armory Sheild,Arthur Voice,Lck,Mag,Villager,Master of Arms,Miracle,Lifetaker,2_9_15_44
+Vilaire,airelynne,short-female,3,0,21,#5b5855,1,3,jp-energetic,White Ribbon,,Ebon Wolf Tail,Alternate Beast Form,Spd,Mag,Kitsune,Nine-Tails,Odd Shaped,Quick Draw,2_9_18_0
+Pop,akanfeh,short-male,6,0,Custom,#fcff99,3,6,mute,,Fox Mask,Ivory Fox Tail,Ignatius Voice,Spd,Lck,Wyvern Rider,Malig Knight,Pass,Gamble,2_10_10_54
+Nozomi,anthonysub12345,tall-female,9,2,24,#e8db98,1,12,mute,,,Yune Pauldron,,HP,Def,Monk/Shrine Maiden,Onmyoji,Future Sight,Vengeance,2_9_17_39
+Rancette,arcadiaofsorrw,tall-female,9,1,14,#cfc3a1,1,8,older,,,,,Mag,Lck,Monk/Shrine Maiden,Priestess,Live to Serve,Lifetaker,2_9_18_34
+Sebastian,awakeninghikari,tall-male,3,0,Custom,#000000,3,0,mute,,,,Jakob Voice,Str,Mag,Ninja,Butler/Maid,Heartseeker,Lethality,2_4_11_17
+Millia ,becoming_cookie001,tall-female,3,0,1,#f6f4ef,1,12,mute,Roguish Hat,Butterfly Mask,Arena Shield,Camilla Voice,HP,Str,Troubadour Gentilhomme,Strategist,Amaterasu,Renewal,2_6_16_34
+Manato,blackglurakx,tall-male,0,0,12,#9b4444,3,2,older,,Oni Mask,Ivory Fox Tail,Alternate Beast Form,Skl,Lck,Kitsune,Nine-Tails,Astra,Aether,2_10_2_7
+Kohaku,blackwing757,tall-female,10,0,2,#c35855,0,0,jp-energetic,White Ribbon,,,,Mag,Skl,Samurai,Swordmaster,Toxic Brew,Witch's Brew,2_4_12_20
+67uinely,blazingemblem,short-male,6,0,24,#e8db98,0,10,younger,,Golem Mask,,,Skl,Lck,Archer,Sniper,Lethality,Quixotic,2_9_18_41
+Kiyome,blythe3331,tall-male,11,0,17,#4c5f78,1,7,older,,Round Glasses,Medicine Trunk,,Mag,HP,Troubadour Gentilhomme,Strategist,Charm,Rally Magic,2_9_17_4
+Dusk,boatthecar,tall-female,7,2,Custom,#121212,2,8,jp-mature,Witch's Hat,Sunglasses,Wolf Tail,,Str,Mag,Ninja,Master Ninja,HP +5,Sol,2_5_23_56
+Bones,bones63,short-male,1,0,29,#f497af,1,2,mute,,Ogre Mask,,Benny Voice,HP,Spd,Oni Savage,Blacksmith,Amaterasu,Wary Fighter,2_6_12_33
+Lucy,brightruby2005,tall-female,4,4,Custom,#ff8ae0,1,0,mute,Sky Hood,Sunglasses,Ivory Fox Tail,Flora Voice,Str,Mag,Sky Knight,Falcon Knight,Armored Blow,Resolve,2_8_18_22
+Mag,broken_magnet,tall-female,1,0,21,#5b5855,3,0,standard,Dark Crown,Sunglasses,Arena Shield,Tank Engine,Mag,Str,Dark Mage,Dark Knight,Shadowgift,Quixotic,2_8_8_3
+Bugged,buggeddata,tall-female,9,0,Custom,#c869ff,1,12,older,Chef Hat,Butterfly Mask,Battle Flag,Custom Outfit,Str,Mag,Mercenary,Hero,Swordbreaker,Lancebreaker,2_5_15_35
+Catalyst,catalyst4243,short-male,5,0,17,#4c5f78,3,0,younger,Maid's Band,Ninja Mask,,Crossdress,Str,Res,Ninja,Butler/Maid,Charm,Heavy Blade,2_9_14_25
+Claire,clairewerebear,tall-female,1,3,Custom,#ffdd00,5,0,older,Witch's Hat,,,,Str,Mag,Apothecary,Merchant,Quick Draw,Certain Blow,2_7_13_8
+Colgate,colgatethetogekiss,short-male,10,0,26,#86e1dc,0,7,younger,Maid's Band,Oni Mask,Kit Tail,Crossdress,Skl,Mag,Samurai,Swordmaster,Aether,Hoshidan Unity,2_9_18_19
+Tirokafteri,cournsword,short-female,3,0,24,#e8db98,3,10,mute,Mage's Circlet,,,Nina Voice,Mag,Res,Nohr Prince(ss),Hoshido Noble,Ignis,Quixotic,2_8_16_23
 Gram,c_owens,short-female,7,2,23,#f59d71,3,8,older,Sky Hood,,Ivory Fox Tail,,Def,Mag,Knight,Great Knight,Bowbreaker,Elbow Room,2_4_11_11
+Tao,dazzling_gleam,tall-male,2,0,23,#f59d71,5,10,mute,Giant Haircomb,Fox Mask,Ivory Fox Tail,,HP,Lck,Monk/Shrine Maiden,Great Master,Amaterasu,Lifetaker,2_9_18_45
 Kotone,deltakai090909,short-female,1,1,13,#96634c,3,4,mute,Nightcap,Butterfly Mask,,Lucina Voice,Mag,Lck,Spear Fighter,Basara,Dancing Blade,Dual Striker,2_4_12_22
-Soter,Dragontrainerguy2003,tall-male,4,0,Custom,#ce9ad6,4,0,jp-mature,Class Headwear,Sunglasses,,Custom Outfit,Mag,Spd,Knight,General,Elbow Room,Malefic Aura,2_4_21_0
-Banana,Drunkenbanana,tall-female,9,2,27,#4d81b5,1,0,mute,,,Heart Pauldron,Kagero Voice,Skl,Mag,Fighter,Berserker,Death Blow,Certain Blow,2_4_9_44
-Llama,esulam0926,short-female,4,5,19,#eeb1b1,2,0,standard,Flower Band,,,,Skl,Mag,Archer,Kinshi Knight,Luna,Darting Blow,2_4_16_27
+Selena,demarcesco_,tall-female,4,3,2,#c35855,2,7,mute,Princess Bow,,Nohr Pauldron,Selena Voice,Skl,Mag,Samurai,Great Lord,Skilltaker,Vengeance,2_9_21_10
+Eagle,draco211,short-female,0,2,7,#92add0,3,0,mute,Witch's Hat,Sunglasses,Ebon Wolf Tail,Camilla Voice,Mag,Str,Dark Mage,Witch,Quick Draw,Dancing Blade,2_9_17_8
+Soter,dragontrainerguy2003,tall-male,4,0,Custom,#ce9ad6,4,0,jp-mature,Class Headwear,Sunglasses,,Custom Outfit,Mag,Spd,Knight,General,Elbow Room,Malefic Aura,2_4_21_0
+Banana,drunkenbanana,tall-female,9,2,27,#4d81b5,1,0,mute,,,Heart Pauldron,Kagero Voice,Skl,Mag,Fighter,Berserker,Death Blow,Certain Blow,2_4_9_44
+Llama,esulam0926,short-female,4,5,19,#eeb1b1,2,0,standard,Flower Band,,,,Skl,Mag,Archer,Sniper,Luna,Darting Blow,2_7_13_29
+Jack,faetalefury,short-male,9,0,29,#f497af,5,9,mute,,Royal Feather,Pup Tail,Jakob Voice,Spd,Str,Troubadour Demoiselle,Strategist,Charm,Heartseeker,2_9_17_43
 Don Quixote,fevan_sost,tall-male,3,0,30,#6e4f3b,6,10,jp-energetic,Roguish Hat,Royal Feather,Water Gourd,Tank Engine,Spd,Mag,Cavalier,Paladin,Darting Blow,Quick Draw,2_5_12_59
-Fire,FireIsCool776,tall-female,2,0,Custom,#b50000,3,3,standard,,Pumpkin Mask,Water Gourd,Tank Engine,Spd,Mag,Wyvern Rider,Wyvern Lord,Dancing Blade,Heartseeker,2_5_1_22
+Auria,finsom,short-female,5,3,15,#6f845f,2,8,younger,Princess Bow,,,,Mag,Skl,Spear Fighter,Basara,Magic +2,Witch's Brew,2_9_20_39
+Fire,fireiscool776,tall-female,2,0,Custom,#b50000,3,3,standard,,Pumpkin Mask,Water Gourd,Tank Engine,Spd,Mag,Wyvern Rider,Wyvern Lord,Dancing Blade,Heartseeker,2_5_1_22
+Huge Bert,flashingfire2,tall-male,3,0,Custom,#232226,4,0,older,,,,,Mag,Str,Dark Mage,Dark Knight,HP +5,Armored Blow,2_9_19_45
+Fox,foxncox,short-male,10,0,9,#fedada,2,7,standard,Class Headwear,Round Glasses,Water Gourd,Crossdress,Skl,Mag,Apothecary,Mechanist,Amaterasu,Live to Serve,2_9_17_26
+Vulpesa,foxyappleart,tall-female,0,2,12,#9b4444,2,12,mute,Witch's Hat,,Fox Tail,Rhajat Voice,Mag,Str,Dark Mage,Dark Knight,Renewal,Savage Blow,2_9_18_36
+Skye,fralmera,short-female,10,0,Custom,#e0d294,2,0,older,,,,Custom Outfit,Spd,Def,Kitsune,Nine-Tails,Dragon Fang,Lucky Seven,2_10_16_59
+Falinks,frontlinefalinks,short-female,5,1,1,#f6f4ef,4,0,mute,,Sunglasses,,Velouria Voice,Mag,Str,Nohr Prince(ss),Hoshido Noble,Quixotic,Voice of Peace,2_9_17_22
 Butthead,frozenwolf2005,short-male,6,0,Custom,#6742bd,0,0,mute,Roguish Hat,,,Izana Voice,Spd,Mag,Oni Savage,Vanguard,Astra,Quixotic,2_4_15_54
+Galvior,galvior,tall-male,8,0,3,#d38969,2,12,mute,Roguish Hat,Ninja Mask,Dread Scabbard,Robin Voice,Def,Str,Ninja,Mechanist,Grisly Wound,Savage Blow,2_9_16_47
+Gamblor,gamblortime,short-male,10,0,Custom,#7e0707,6,10,jp-middle,Lottery Hat,,Fox Tail,Custom Outfit,Skl,Mag,Samurai,Great Lord,Gamble,Resolve,2_7_19_9
+Golphobia,girasintoo,short-female,1,0,7,#92add0,3,0,mute,Princess Bow,Ninja Mask,,Elise Voice,Mag,Res,Nohr Prince(ss),Hoshido Noble,Golembane,Quixotic,2_8_10_1
+dargon,gramcracker55,tall-male,6,0,4,#eddbc5,3,0,older,,Hoshido Crown,,,Def,Spd,Nohr Prince(ss),Nohr Noble,Wary Fighter,HP +5,2_7_1_34
 Chadicus,grary27,tall-male,9,0,19,#eeb1b1,1,3,mute,,Sunglasses,Nohr Pauldron,Laslow Voice,Str,Res,Oni Savage,Vanguard,Gentilhomme,Lancebreaker,2_4_22_38
-Phoenix,greenphoenix08,short-male,8,0,15,#6f845f,4,0,mute,Witch's Hat,,,Subaki Voice,Skl,Mag,Mercenary,Lodestar,Sol,Defense +2,2_4_11_47
+Phoenix,greenphoenix08,short-male,8,0,Custom,#4dff16,4,0,mute,Roguish Hat,Rimmed Glasses,Nohr Pauldron,Subaki Voice,Skl,Mag,Mercenary,Lodestar,Sol,Defense +2,2_9_19_22
+Linda,grottosstuff,tall-female,9,0,15,#6f845f,0,0,jp-middle,,,,,Spd,Str,Samurai,Swordmaster,Death Blow,Pass,2_9_19_33
 Harleys,harleys999,tall-male,1,0,5,#abd1a1,2,9,standard,Bowman's Hat,Sunglasses,Ike's Pauldron,,Str,Mag,Archer,Sniper,Elbow Room,Dual Striker,2_5_18_8
-Jordyn,HecticAngel59,tall-female,0,3,21,#5b5855,3,2,older,Straw Hat,Ninja Mask,Arena Shield,,Str,Mag,Archer,Kinshi Knight,Darting Blow,Elbow Room,2_4_12_27
-Luckzo,HunterAurzo,short-male,5,0,6,#7dbbc4,5,0,mute,,Pumpkin Mask,,Takumi Voice,Lck,Mag,Villager,Merchant,Salvage Blow,Witch's Brew,2_4_12_27
+Mike Hawk,hawkeye_mike,tall-male,9,0,Custom,#560085,1,2,mute,,Sunglasses,Ike's Pauldron,Xander Voice,Spd,Mag,Oni Savage,Blacksmith,Dancing Blade,Quixotic,2_6_20_47
+Jordyn,hecticangel59,tall-female,0,3,21,#5b5855,3,2,older,Straw Hat,Ninja Mask,Arena Shield,,Str,Mag,Archer,Kinshi Knight,Darting Blow,Elbow Room,2_4_12_27
+Luckzo,hunteraurzo,short-male,5,0,6,#7dbbc4,5,0,mute,,Pumpkin Mask,,Takumi Voice,Lck,Mag,Villager,Merchant,Salvage Blow,Witch's Brew,2_4_12_27
+Jasper,icefinch,short-male,11,0,11,#a5a6a6,2,0,older,Witch's Hat,Round Glasses,Lion Shield,,Res,Mag,Lancer,Great Lord,Dragon Ward,Amaterasu,2_7_1_28
+Gene Raell,ilovefegenerals,tall-male,7,0,16,#3c7986,6,9,mute,Class Headwear,,General's Shell,,Def,Spd,Knight,General,Movement +1,Defender,2_10_16_17
 FuckMagic,infactanoose,short-female,9,3,23,#f59d71,4,11,mute,,Sunglasses,,Azura Voice,Res,Mag,Ninja,Master Ninja,Tomebreaker,Shadowgift,2_4_11_19
+Inferno,infernobren,short-female,9,5,2,#c35855,1,7,younger,Class Headwear,,,,Skl,Mag,Outlaw,Bow Knight,Shelter,Astra,2_9_0_20
+Jeremiah,jayblackmen,short-male,10,0,30,#6e4f3b,3,12,older,Wyvern Helm,Tinted Glasses,,,Def,Spd,Oni Savage,Blacksmith,Swordbreaker,Axebreaker,2_9_19_50
+El Twopido,jcrothagain,tall-male,9,0,Custom,#b8b6b5,6,12,jp-mature,Class Headwear,,Ike's Pauldron,Custom Outfit,Mag,Spd,Nohr Prince(ss),Nohr Noble,Wary Fighter,Movement +1,2_11_14_54
 Kats,kats,short-male,9,0,11,#a5a6a6,0,0,standard,Pink Beret,,,,Mag,Skl,Sky Knight,Dark Falcon,Certain Blow,Armored Blow,2_4_19_0
-Kazenun,Kazenin,tall-female,3,3,Custom,#696969,5,8,jp-calm,Dark Crown,Ninja Mask,Dread Scabbard,Custom Outfit,Lck,Res,Monk/Shrine Maiden,Priestess,Dragon Ward,Hoshidan Unity,2_5_13_43
+Kazenun,kazenin,tall-female,3,3,Custom,#454545,5,8,jp-calm,Dark Crown,Ninja Mask,Dread Scabbard,Custom Outfit,Skl,Res,Monk/Shrine Maiden,Priestess,HP +5,Lethality,2_9_23_57
 Denji,king_sombo,short-male,6,0,24,#e8db98,6,0,standard,Berserk Helm,,,,Str,Lck,Samurai,Swordmaster,Death Blow,Gentilhomme,2_4_13_18
+Mint,kissenph,short-female,1,2,14,#cfc3a1,2,0,mute,Lottery Hat,,Ivory Fox Tail,Elise Voice,HP,Mag,Knight,Great Knight,Wary Fighter,Renewal,2_9_19_13
 Legion,knox_yy,tall-male,0,0,7,#92add0,3,12,standard,Wyvern Helm,,Nohr Pauldron,,Def,Mag,Knight,General,Seal Strength,Armored Blow,2_4_18_57
-Hera,Krazazel,tall-female,0,0,22,#e85d64,2,0,older,,,Emblem Shield,,Mag,Lck,Dark Mage,Grandmaster,Charm,Aether,2_4_20_2
-Hex,Lady_hex,tall-female,0,5,12,#9b4444,3,12,mute,Wyvern Helm,,Heart Pauldron,Charlotte Voice,Def,Mag,Cavalier,Great Knight,Heartseeker,Heavy Blade,2_4_11_13
-Kageaki,LagSpike776,tall-male,6,0,21,#5b5855,4,12,mute,,,Dread Scabbard,,HP,Mag,Wyvern Rider,Malig Knight,Elbow Room,Darting Blow,2_4_14_10
-Yuri,Lolyuri64,tall-female,0,5,Custom,#6f0fbd,3,12,mute,Princess Crown,Rimmed Glasses,Ebon Wolf Tail,Camilla Voice,Mag,Lck,Oni Savage,Oni Chieftain,Quixotic,Veteran Intuition,2_4_15_47
+May,koyomin___,short-female,7,0,13,#96634c,0,0,jp-energetic,Pink Beret,,,,Str,Mag,Oni Savage,Oni Chieftain,Resolve,Astra,2_9_19_15
+Hera,krazazel,tall-female,0,0,22,#e85d64,2,0,older,,,Emblem Shield,,Mag,Lck,Dark Mage,Grandmaster,Charm,Aether,2_4_20_2
+Kiwi,kyleenim,short-male,1,0,25,#8ed484,5,12,mute,,Rimmed Glasses,,Azama Voice,Str,Spd,Monk/Shrine Maiden,Great Master,Gentilhomme,Demoiselle,2_9_20_52
+Hex,lady_hex,tall-female,0,5,12,#9b4444,3,12,mute,Wyvern Helm,,Heart Pauldron,Charlotte Voice,Def,Mag,Cavalier,Great Knight,Heartseeker,Heavy Blade,2_4_11_13
+Kageaki,lagspike776,tall-male,6,0,21,#5b5855,4,12,mute,,,Dread Scabbard,,HP,Mag,Wyvern Rider,Malig Knight,Elbow Room,Darting Blow,2_4_14_10
+Margaret,laurencemorbier,tall-female,0,2,Custom,#ffe9ba,0,0,mute,,,Smithy Shield,Scarlet Voice,Str,Mag,Knight,Great Knight,Dancing Blade,Darting Blow,2_9_22_7
+lidus,lidd66,tall-female,9,2,7,#92add0,2,6,older,,Royal Feather,Emblem Shield,,Res,Str,Diviner,Basara,Shadowgift,HP +5,2_9_19_41
+Luna,lodestar417,short-female,7,0,28,#af81d5,1,0,standard,Marth's Tiara,,,,Mag,Def,Troubadour Demoiselle,Strategist,Luna,Lifetaker,2_9_19_11
+Yuri,lolyuri64,tall-female,0,5,Custom,#6f0fbd,3,12,mute,Princess Crown,Rimmed Glasses,Ebon Wolf Tail,Camilla Voice,Mag,Lck,Oni Savage,Oni Chieftain,Quixotic,Veteran Intuition,2_4_15_47
 Laurentina,ltranc,tall-female,7,0,Custom,#eff2e9,1,1,standard,Witch's Hat,Rimmed Glasses,,Custom Outfit,Def,Mag,Fighter,Berserker,Renewal,Veteran Intuition,2_4_17_5
-Potemkin,Morgruk,tall-male,10,0,2,#c35855,6,0,mute,Berserk Helm,,,Benny Voice,HP,Mag,Knight,General,Counter,Renewal,2_5_11_7
-Sir Robin,MothmanTristan,tall-male,10,0,Custom,#7e4610,1,0,mute,,,Yune Pauldron,Ignatius Voice,HP,Str,Monk/Shrine Maiden,Onmyoji,Shove,Dual Guardsman,2_3_20_31
-Octopusvio,otavio_36,short-male,0,0,21,#5b5855,2,12,jp-calm,Witch's Hat,,Emblem Shield,Custom Outfit,Mag,Def,Villager,Basara,Magic +2,Lifetaker,2_4_15_51
+Nova,lucky776777,tall-female,5,5,7,#92add0,2,0,standard,Witch's Hat,,Robin's Books,Custom Outfit,Str,Mag,Lancer,General,Quixotic,Counter,2_8_18_32
+Ira,lugoob,short-female,4,2,3,#d38969,6,2,mute,,Oni Mask,Dread Scabbard,Rhajat Voice,Skl,Def,Mercenary,Vanguard,Astra,Quixotic,2_9_18_13
+Mars,mario64vsluigi64,tall-female,1,5,Custom,#ffffff,2,0,jp-middle,White Ribbon,,Dragon Feather,Custom Outfit,Mag,Str,Dark Mage,Sorcerer,HP +5,Resolve,2_7_16_20
+Sage,maxpowergamer777,short-female,7,0,Custom,#004a19,4,0,standard,Witch's Hat,,,,Lck,Mag,Archer,Ballistician,Spendthrift,Profiteer,2_6_17_54
+Selina,mexipika,tall-female,5,0,19,#eeb1b1,2,0,mute,,,,KanaF Voice,Spd,Def,Sky Knight,Kinshi Knight,Movement +1,Lucky Seven,2_9_18_47
+Soma,michaelganon,tall-male,11,0,2,#c35855,1,0,mute,,Cross Eyepatch,,Robin Voice,Skl,Mag,Mercenary,Vanguard,Astra,Hoshidan Unity,2_10_13_47
+Kenny,mjaars,short-male,11,0,24,#e8db98,0,0,jp-young,Simple Kerchief,,Battle Flag,Crossdress,Mag,HP,Troubadour Demoiselle,Strategist,Charm,Dual Striker,2_9_13_11
+Potemkin,morgruk,tall-male,10,0,2,#c35855,6,0,mute,Berserk Helm,,,Benny Voice,HP,Mag,Knight,General,Counter,Renewal,2_5_11_7
+Sir Robin,mothmantristan,tall-male,10,0,Custom,#7e4610,1,0,mute,,,Yune Pauldron,Ignatius Voice,HP,Str,Monk/Shrine Maiden,Onmyoji,Shove,Dual Guardsman,2_3_20_31
+Denna,naranjazo,tall-female,1,2,21,#5b5855,0,0,mute,Princess Bow,,,Lucina Voice,Skl,Lck,Sky Knight,Falcon Knight,Rally Strength,Rally Defense,2_10_1_18
+Bastian,nethaemerald,tall-male,4,0,24,#e8db98,6,2,older,,,Ebon Wolf Tail,,Mag,Lck,Diviner,Dread Fighter,Sol,Ignis,2_6_15_6
+Hertea,nimblerat2,tall-female,3,1,14,#cfc3a1,2,0,mute,Golden Clip,,Heart Pauldron,Selena Voice,Spd,Mag,Fighter,Hero,Luna,Hoshidan Unity,2_7_13_31
+Adoracle,nizaha,tall-female,4,0,10,#c0aa9c,0,7,standard,,,,,Def,Str,Diviner,Onmyoji,Seal Speed,Toxic Brew,2_9_19_47
+NADegenerate,not_a_degenerate,short-male,4,0,12,#9b4444,3,4,mute,,Effigy Mask,Battle Flag,,Spd,Lck,Archer,Sniper,Rally Defense,Dragon Fang,2_7_17_59
+Lucky Duck,oats_245,tall-female,9,2,16,#3c7986,4,0,older,Dark Diadem,,Nohr Pauldron,,Lck,Mag,Wyvern Rider,Wyvern Lord,Luck +4,Good Fortune,2_9_15_18
+Koi,ochuspin,short-female,1,5,1,#f6f4ef,5,5,mute,,Sunglasses,Dragon Feather,,Mag,Lck,Nohr Prince(ss),Lodestar,Odd Shaped,Gamble,2_9_20_53
+9s,oohwilfre,short-male,7,0,1,#f6f4ef,2,0,younger,,Butterfly Mask,,Crossdress,Mag,Spd,Troubadour Demoiselle,Butler/Maid,Tactical Advice,Dual Guardsman,2_9_20_3
+Lynn,oshtheosh,short-female,10,0,12,#9b4444,2,7,mute,White Ribbon,Round Glasses,Heart Pauldron,Soleil Voice,Lck,HP,Monk/Shrine Maiden,Priestess,Rally Defense,Rally Resistance,2_9_16_36
+Sally,ossy2600,tall-female,0,2,12,#9b4444,3,2,jp-calm,Chef Hat,Round Glasses,Heart Pauldron,,Skl,Str,Troubadour Demoiselle,Butler/Maid,Miracle,Amaterasu,2_9_19_37
+Dito,pachiplusemolga,short-male,0,5,20,#837267,1,11,standard,,,,,Skl,Lck,Spear Fighter,Spear Master,Death Blow,Lifetaker,2_9_19_26
+Papaya,perovskitegaming,tall-female,2,4,2,#c35855,0,2,standard,,,,,Spd,Def,Ninja,Mechanist,Shurikenbreaker,Shelter,2_6_22_36
+Famine,pestilenceamplified,tall-male,2,0,15,#6f845f,6,4,older,,Einherjar Mask,Dragon Feather,Fuga Voice,Skl,Spd,Knight,General,Lethality,Heavy Blade,2_9_19_34
 Galonis,pgarc252,tall-female,9,3,9,#fedada,6,10,older,,Tinted Glasses,Robin's Books,,Spd,Lck,Fighter,Hero,Aegis,Counter,2_5_15_45
+Profefor,profefortoad,tall-female,0,0,30,#6e4f3b,0,0,mute,Witch's Hat,,,Elise Voice,Spd,Mag,Mercenary,Lodestar,Speed +2,Darting Blow,2_6_23_36
+Mini Durin,qui_yonce,short-male,10,5,Custom,#ceb8cf,3,7,mute,Dragon Hairpin,,Dragon Feather,Percy Voice,Mag,HP,Nohr Prince(ss),Nohr Noble,Shadowgift,Malefic Aura,2_10_0_56
 Zev,rebelzev,short-male,1,0,27,#4d81b5,6,2,mute,,,Ike's Pauldron,Ike Voice,HP,Lck,Mercenary,Vanguard,Pavise,Hoshidan Unity,2_4_11_41
-Camillan't,RogueHippie,tall-female,0,0,Custom,#bfb7dc,6,0,mute,Princess Crown,,,Camilla Voice,Mag,Lck,Wyvern Rider,Malig Knight,Shadowgift,Darting Blow,2_4_12_24
-Kallian,seyroxvongalahad,short-male,11,0,17,#4c5f78,4,4,mute,Mage's Circlet,,Lion Shield,Leo Voice,Mag,Str,Dark Mage,Grandmaster,Shadowgift,Renewal,2_4_23_4
-Vechiaff,sirhat0,tall-male,1,0,18,#82678c,6,2,mute,,,,Kaden Voice,HP,Spd,Knight,Ballistician,Heartseeker,Wary Fighter,2_4_18_41
-Vyk,SrDingle,tall-female,0,0,15,#6f845f,4,10,jp-calm,Roguish Hat,Tinted Glasses,,Alternate Beast Form,Mag,Def,Kitsune,Nine-Tails,Dancing Blade,Ignis,2_5_19_55
-Corncina,SugarMaple,tall-female,3,3,16,#3c7986,0,4,mute,Marth's Tiara,Butterfly Mask,Emblem Shield,Lucina Voice,Skl,Mag,Mercenary,Hero,Nohrian Trust,Astra,2_4_19_30
-Brolan,Surge149,tall-male,5,0,30,#6e4f3b,3,0,mute,,Tinted Glasses,Yune Pauldron,Ike Voice,Skl,Mag,Oni Savage,Blacksmith,Renewal,Dragon Fang,2_4_18_52
-Cheshire,ThatUnknownSkull,tall-male,8,0,Custom,#000000,0,0,mute,,,Ebon Wolf Tail,Jakob Voice,HP,Lck,Dark Mage,Grandmaster,Better Odds,Even Better,2_4_12_27
-Seele,ThyPannyx,tall-female,0,0,9,#fedada,1,10,jp-calm,Pink Beret,,,Custom Outfit,HP,Mag,Spear Fighter,Spear Master,Axebreaker,Veteran Intuition,2_4_13_26
+Torsten,reflet2210,tall-male,9,0,24,#e8db98,6,0,mute,Dark Crown,Sunglasses,Arena Shield,Odin Voice,HP,Res,Oni Savage,Oni Chieftain,Movement +1,Dragon Ward,2_9_20_3
+Cellinia,rt1003,tall-female,0,0,Custom,#565a78,3,0,older,Roguish Hat,Butterfly Mask,Dread Scabbard,Custom Outfit,Mag,Res,Sky Knight,Falcon Knight,Shelter,Elbow Room,2_7_0_47
+Cornball,sen1225,tall-female,1,0,12,#9b4444,0,0,standard,Witch's Hat,Pumpkin Mask,,Tank Engine,Mag,Str,Troubadour Demoiselle,Strategist,Charm,Gentilhomme,2_6_20_24
+Viviana,settleintoash,tall-female,0,0,Custom,#f3dbc2,1,0,older,Sky Hood,,,Custom Outfit,Mag,Lck,Diviner,Dread Fighter,Elbow Room,Dancing Blade,2_6_4_24
+Kallian,seyroxvongalahad,short-male,11,0,17,#4c5f78,4,5,mute,,,Lion Shield,Leo Voice,Mag,Str,Dark Mage,Sorcerer,Shadowgift,Renewal,2_7_23_7
+Shatter,shatteredice,tall-male,4,0,30,#6e4f3b,3,0,mute,Class Headwear,,,Shura Voice,Str,Mag,Cavalier,Great Knight,Heavy Blade,Quick Draw,2_9_5_3
+Lisgo Gambli,shmorsch,tall-female,5,5,5,#abd1a1,5,11,mute,Party Hat,Cross Eyepatch,Battle Flag,Crossdress,Skl,Mag,Nohr Prince(ss),Lodestar,Quixotic,Hoshidan Unity,2_9_10_56
+Kara,silentfaythe,tall-female,9,2,8,#c8a2d6,1,0,jp-middle,,,,,Mag,Lck,Dark Mage,Dark Knight,Luna,Ignis,2_9_18_10
+Vechiaff,sirhat0,tall-male,1,0,18,#82678c,6,2,mute,,,,Kaden Voice,Def,Mag,Knight,General,Heartseeker,Charm,2_7_19_40
+Roano,spacejazz64,short-male,6,0,17,#4c5f78,6,6,standard,Pink Beret,,Emblem Shield,Custom Outfit,Def,Res,Mercenary,Hero,Hoshidan Unity,Aether,2_10_0_24
+Crest,specs64z,short-female,0,3,18,#82678c,4,12,younger,,,,,Spd,Str,Dark Mage,Witch,Lifetaker,Aether,2_9_21_50
+Laine,spirit_wolf10uwu,short-male,10,0,17,#4c5f78,4,3,mute,,,Wolf Tail,Hinata Voice,Spd,Def,Outlaw,Bow Knight,Elbow Room,Underdog,2_10_12_27
+keula,sprettlingr,short-male,1,3,12,#9b4444,5,8,mute,Roguish Hat,Einherjar Mask,Item Shield,Shiro Voice,Str,HP,Archer,Sniper,Dancing Blade,Death Blow,2_9_16_42
+Lutonada,squadunknown192,short-female,3,0,Custom,#78677b,2,0,older,Golden Clip,,,Custom Outfit,Res,Mag,Lancer,General,Renewal,HP +5,2_6_13_53
+Vyk,srdingle,tall-female,0,0,15,#6f845f,4,10,jp-calm,Roguish Hat,Tinted Glasses,,Alternate Beast Form,Mag,Def,Kitsune,Nine-Tails,Dancing Blade,Ignis,2_5_19_55
+Corncina,sugarmaple,tall-female,3,3,16,#3c7986,0,4,mute,Marth's Tiara,Butterfly Mask,Emblem Shield,Lucina Voice,Skl,Mag,Mercenary,Hero,Nohrian Trust,Astra,2_4_19_30
+Brolan,surge149,tall-male,5,0,30,#6e4f3b,3,0,mute,,Tinted Glasses,Yune Pauldron,Ike Voice,Skl,Mag,Oni Savage,Blacksmith,Renewal,Dragon Fang,2_4_18_52
+evil taco,tacosir,short-male,11,0,30,#6e4f3b,2,0,standard,White Ribbon,Sunglasses,,,Spd,Mag,Mercenary,Vanguard,Lifetaker,Vengeance,2_9_12_45
+Nikita,tastyfren,tall-female,7,0,Custom,#687808,5,10,younger,Trainee Garb,,,,Spd,Mag,Diviner,Onmyoji,Astra,Quixotic,2_10_1_11
+Cheshire,thatunknownskull,tall-male,8,0,Custom,#000000,0,0,mute,,,Ebon Wolf Tail,Jakob Voice,HP,Lck,Dark Mage,Grandmaster,Better Odds,Even Better,2_4_12_27
+A2,themysteriousemblem,tall-female,3,0,1,#f6f4ef,4,8,older,,,Dread Scabbard,,Str,Def,Ninja,Dread Fighter,Death Blow,Dual Striker,2_9_0_10
+Youta,theren33,tall-male,4,0,21,#5b5855,1,9,mute,,Ninja Mask,Dread Scabbard,Ryoma Voice,Skl,Mag,Samurai,Swordmaster,Quick Draw,Death Blow,2_9_11_39
+Seele,thypannyx,tall-female,0,0,9,#fedada,1,10,jp-calm,Pink Beret,,,Custom Outfit,HP,Mag,Spear Fighter,Spear Master,Axebreaker,Veteran Intuition,2_4_13_26
+Nacnud,titanicfudge,tall-male,11,0,17,#4c5f78,2,7,mute,,Golem Mask,Battle Flag,Midori Voice,Str,Mag,Knight,General,Lifetaker,Swap,2_10_11_13
+Chew,tp_chew,tall-female,9,2,Custom,#bfb7df,1,0,mute,Princess Crown,,Nohr Pauldron,Charlotte Voice,Str,Mag,Samurai,Swordmaster,Lancebreaker,Swordbreaker,2_6_19_24
 Largo,ultraluminary_,tall-male,4,0,Custom,#512950,3,1,mute,Party Hat,Tinted Glasses,Dread Scabbard,Benny Voice,Spd,Def,Fighter,Berserker,Evenhanded,Luna,2_5_2_35
-Dorte,Vyleige22 ,tall-female,0,2,Custom,#57b6ff,2,0,mute,Straw Hat,,Dread Scabbard,Setsuna Voice,Spd,Mag,Oni Savage,Blacksmith,Lifetaker,Renewal,2_5_14_54
-Wild,Wild13097,short-male,5,2,28,#af81d5,3,0,standard,,Ninja Mask,,,Mag,Str,Outlaw,Adventurer,Quick Draw,Certain Blow,2_4_18_17
+Lucius,undead_innkeeper,tall-male,11,0,14,#cfc3a1,2,2,older,Sun Tiara,Sunglasses,Ivory Fox Tail,,Def,Lck,Spear Fighter,Spear Master,Better Odds,Resolve,2_9_14_10
+Meyneth,untendohd,tall-female,7,0,7,#92add0,0,3,older,Sun Tiara,,,,Spd,Skl,Mercenary,Hero,Rally Strength,Heartseeker,2_10_0_12
+Zero,vivi_valkyrie_,tall-female,0,5,1,#f6f4ef,1,11,older,,,,,Skl,Lck,Nohr Prince(ss),Great Lord,Vengeance,Savage Blow,2_9_19_15
+Lotte,vyleige22,tall-female,0,2,Custom,#dac2ff,2,0,mute,Straw Hat,Sunglasses,Dread Scabbard,Setsuna Voice,Str,Res,Monk/Shrine Maiden,Priestess,Solidarity,Dragon Ward,2_9_8_14
+Tsuki,wannabesquiddy,short-male,5,0,10,#c0aa9c,5,0,older,,Rimmed Glasses,Water Gourd,,Def,Res,Troubadour Gentilhomme,Butler/Maid,Pavise,Movement +1,2_9_20_31
+Lemuen,whistlestop95,tall-female,0,0,Custom,#f8b5b0,1,0,older,Head Towel,Tinted Glasses,,Custom Outfit,Str,Lck,Archer,Ballistician,Dancing Blade,Darting Blow,2_11_14_36
+Bastion,wielder_bastion,short-male,1,0,24,#e8db98,1,9,mute,Marth's Tiara,Rimmed Glasses,Emblem Shield,Fuga Voice,Spd,Res,Wyvern Rider,Malig Knight,Astra,Heartseeker,2_9_19_34
+Wild,wild13097,short-male,5,2,28,#af81d5,3,0,standard,,Ninja Mask,,,Mag,Str,Outlaw,Adventurer,Quick Draw,Certain Blow,2_4_18_17
+Noodle,xero2008,short-male,10,0,21,#5b5855,0,2,standard,Witch's Hat,,,Custom Outfit,Mag,Spd,Nohr Prince(ss),Nohr Noble,Malefic Aura,Skilltaker,2_9_14_49
 Dormouse,yu_junker,short-female,4,0,11,#a5a6a6,5,8,standard,Nightcap,,,,Spd,Str,Monk/Shrine Maiden,Onmyoji,Lucky Seven,Underdog,2_4_19_32
-Sapphire,Yveltel,tall-female,5,5,Custom,#3f48cc,0,0,standard,Maid's Band,,Fox Tail,Custom Outfit,HP,Lck,Troubadour Demoiselle,Butler/Maid,Gentilhomme,Charm,2_4_20_34
+Sapphire,yveltel,tall-female,5,5,Custom,#3f48cc,0,0,standard,Maid's Band,,Fox Tail,Custom Outfit,HP,Lck,Troubadour Demoiselle,Butler/Maid,Gentilhomme,Charm,2_4_20_34
+PaperZac,zac19597,short-male,10,0,23,#f59d71,3,11,younger,Nightcap,,,Alternate Beast Form,Def,Mag,Wolfskin,Wolfssegner,Wary Fighter,Counter,2_6_12_55
+Gaashama,zanegreedon,tall-male,4,0,23,#f59d71,4,2,mute,Sun Tiara,Cross Eyepatch,Battle Flag,,Res,Lck,Sky Knight,Dark Falcon,Certain Blow,Resolve,2_7_22_42

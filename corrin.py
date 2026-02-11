@@ -104,7 +104,7 @@ def json_to_character(json_data):
     
     # Basic Info
     char.corrin_name = json_data.get('name', '').replace("â€™", "'")
-    char.twitch_name = json_data.get('twitchUsername', '').replace("â€™", "'")
+    char.twitch_name = json_data.get('twitchUsername', '').replace("â€™", "'").replace(" ", "").lower()
     char.timestamp = json_data.get('creationDate', '1_1_1_1')
     
     # Appearance

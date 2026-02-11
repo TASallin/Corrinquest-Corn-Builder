@@ -275,8 +275,8 @@ class CharacterConverterGUI(tk.Tk):
          stamp1 = stampstring1.split('_')
          stamp2 = stampstring2.split('_')
          for i in range(len(stamp1)):
-             if stamp1[i] > stamp2[i]:
+             if int(stamp1[i]) > int(stamp2[i]):
                  return 1
-             elif stamp1[i] < stamp2[i]:
+             elif int(stamp1[i]) < int(stamp2[i]):
                  return -1
          return 0
