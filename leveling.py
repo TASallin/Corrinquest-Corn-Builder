@@ -14,6 +14,7 @@ HOSHIDAN_WEAPONS = ["Katana", "Naginata", "Club", "Shuriken", "Yumi"]
 STANDARD_METALS = ["Bronze", "Iron", "Steel", "Silver"]
 STANDARD_TOMES = ["Fire", "Thunder", "Fimbulvetr", "Ragnarok"]
 STANDARD_SPIRITS = ["Rat Spirit", "Ox Spirit", "Tiger Spirit", "Rabbit Spirit"]
+STAFF_EXPERTS = ['Butler/Maid', 'Priestess', 'Great Master']
 CLASSES_DF["Weapon1"] = CLASSES_DF["Weapon1"].fillna('').astype(str)
 CLASSES_DF["Weapon2"] = CLASSES_DF["Weapon2"].fillna('').astype(str)
 CLASSES_DF["Weapon3"] = CLASSES_DF["Weapon3"].fillna('').astype(str)
@@ -195,6 +196,8 @@ def get_wxp_column(corrin, base_class, promoted_class, current_class, weapon_typ
         wxp_column = "S Rank WXP"
     elif promoted_class == current_class and weapon_type not in base_weapons:
         wxp_column = "Promoted WXP"
+    elif promoted_class == current_class and weapon_type == "Staff" and "Staff" in base_weapons and current_class in STAFF_EXPERTS:
+        wxp_column = "S Rank WXP"
     elif len(base_weapons) == 2:
         other_weapon = base_weapons[1 - base_weapons.index(weapon_type)]
         if other_weapon in promoted_weapons and weapon_type not in promoted_weapons:
