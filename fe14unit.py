@@ -91,7 +91,7 @@ def create_fe14unit_bytearray(corrin):
     file[HAIR_COLOR_2_ADDRESS] = file[HAIR_COLOR_ADDRESS]
     file[HAIR_COLOR_2_ADDRESS + 1] = file[HAIR_COLOR_ADDRESS + 1]
     file[HAIR_COLOR_2_ADDRESS + 2] = file[HAIR_COLOR_ADDRESS + 2]
-    file[HAIR_CLIP_ADDRESS] = corrin.hair_decoration
+    file[HAIR_CLIP_ADDRESS] = corrin.hair_decoration if corrin.gender_value == 1 else 0
     file[FACIAL_DETAIL_ADDRESS] = corrin.facial_detail
     file[VOICE_ADDRESS] = corrin.voice_id
     return file

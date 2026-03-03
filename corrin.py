@@ -117,7 +117,8 @@ def json_to_character(json_data):
     
     char.face = appearance.get('face', 0)
     char.hairstyle = appearance.get('hairstyle', 0)
-    char.hair_decoration = appearance.get('hairDecoration', 0)
+    if char.gender_value == 1:
+        char.hair_decoration = appearance.get('hairDecoration', 0)
     char.facial_detail = appearance.get('facialDetail', 0)
     
     voice = appearance.get('voice', {})
