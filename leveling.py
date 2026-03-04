@@ -258,7 +258,7 @@ def assign_items(chapter, corrin):
             if base_weapons[0] in ["Staff", "Stone"]:
                 pass
             else:
-                bronze = get_item_from_name(construct_weapon_name("Bronze", base_weapons[0], base_class))
+                bronze = get_item_from_name(construct_weapon_name("Bronze", base_weapons[0], promoted_class, base_class))
                 corrin.items.append(bronze)
         else:
             for weapon_type in base_weapons:
@@ -266,7 +266,7 @@ def assign_items(chapter, corrin):
                     if weapon_type in ["Staff", "Stone"]:
                         pass
                     else:
-                        bronze = get_item_from_name(construct_weapon_name("Bronze", weapon_type, base_class))
+                        bronze = get_item_from_name(construct_weapon_name("Bronze", weapon_type, promoted_class, base_class))
                         corrin.items.append(bronze)
                     break
     corrin.items.append(get_item_from_name("Vulnerary"))
@@ -311,7 +311,7 @@ def get_items_for_weapon_type(weapon_index, rank, chapter, corrin):
         rank = "E"
         if chapter >= STAFF_PROMO_THRESHOLD or (chapter >= STAFF_THRESHOLD and weapon_type in base_weapons):
             rank = "D"
-        staff_name = construct_weapon_name(rank, weapon_type, current_class)
+        staff_name = construct_weapon_name(rank, weapon_type, promoted_class, base_class)
         weapons.append(get_item_from_name(staff_name))
     else:
         prefix = "Iron"
@@ -319,13 +319,13 @@ def get_items_for_weapon_type(weapon_index, rank, chapter, corrin):
             prefix = "Silver"
         elif rank + corrin.internal_level * 1.5 >= C_RANK_REQUIREMENT:
             prefix = "Steel"
-        weapon_name = construct_weapon_name(prefix, weapon_type, current_class)
+        weapon_name = construct_weapon_name(prefix, weapon_type, promoted_class, base_class)
         weapons.append(get_item_from_name(weapon_name))
     return weapons
 
-def construct_weapon_name(prefix, weapon_type, current_class):
-    class_row = CLASSES_DF.loc[CLASSES_DF["Name"] == current_class]
-    hoshidan = bool(class_row["Hoshidan"].iloc[0])
+def construct_weapon_name(prefix, weapon_type, promoted_class, base_class):
+    base_class_row = CLASSES_DF.loc[CLASSES_DF["Name"] == base_class]
+    hoshidan = bool(base_class_row["Hoshidan"].iloc[0]) or promoted_class == "Hoshido Noble"
     if weapon_type == "Tome":
         if hoshidan:
             return STANDARD_SPIRITS[STANDARD_METALS.index(prefix)]
