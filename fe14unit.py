@@ -21,6 +21,7 @@ ACCESSORIES_ADDRESS = 0x11f #4 Bytes in order of hair->face->arm->body ID
 NAME_ADDRESS = 0x12e #24 Bytes 12 characters separated by 00
 BOON_ADDRESS = 0x148 #Byte
 BANE_ADDRESS = 0x149 #Byte
+TALENT_ADDRESS = 0x14a #Byte
 GENDER_ADDRESS = 0x14c #Byte
 BUILD_ADDRESS = 0x14d #Byte
 FACE_ADDRESS = 0x14e #Byte
@@ -81,6 +82,7 @@ def create_fe14unit_bytearray(corrin):
             file[NAME_ADDRESS + 2 * i] = 0
     file[BOON_ADDRESS] = corrin.boon_id
     file[BANE_ADDRESS] = corrin.bane_id
+    file[TALENT_ADDRESS] = 69 + corrin.gender_value
     file[GENDER_ADDRESS] = corrin.gender_value
     file[BUILD_ADDRESS] = corrin.build_value
     file[FACE_ADDRESS] = corrin.face
