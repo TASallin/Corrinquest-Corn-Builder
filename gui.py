@@ -249,6 +249,9 @@ class CharacterConverterGUI(tk.Tk):
             filename = char.corrin_name
             if char.corrin_name in duplicate_names:
                 filename = char.corrin_name + "(" + char.twitch_name + ")"
+            invalid_chars = '<>:"/\\|?*[]#%&{};!@+`^$'
+            translation_table = str.maketrans('', '', invalid_chars)
+            filename = filename.translate(translation_table)
             output_file = os.path.join(self.output_path.get(), filename + ".fe14unit")
             with open(output_file, 'wb') as file:
                 file.write(bytearr)
